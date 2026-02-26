@@ -823,6 +823,18 @@ export const galleryData = [
             "/images/gallery-2024-summer-mt-4.png",
             "/images/gallery-2024-summer-mt-5.png"
         ]
+    },
+    {
+        id: 24,
+        title: "2024 K-BATTERY SHOW (09/26)",
+        date: "2024.09",
+        description: "",
+        thumbnail: "/images/gallery-kbattery-2024-1.png",
+        images: [
+            "/images/gallery-kbattery-2024-1.png",
+            "/images/gallery-kbattery-2024-2.png",
+            "/images/gallery-kbattery-2024-3.png"
+        ]
     }
     // Add more gallery items
 ];
