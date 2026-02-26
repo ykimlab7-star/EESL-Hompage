@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EESL - Electrochemical Energy Storage Laboratory</title>
+
+    <!-- React & ReactDOM -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+
+    <!-- Babel for JSX -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'eesl-blue': '#0033cc',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-white text-gray-800 antialiased">
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const { useState, useEffect } = React;
+
+        // --- COMPONENTS ---
+
+        const Navbar = () => {
+            const [isScrolled, setIsScrolled] = useState(false);
+
+            useEffect(() => {
+                const handleScroll = () => {
+                    setIsScrolled(window.scrollY > 20);
+                };
+                window.addEventListener('scroll', handleScroll);
+                return () => window.removeEventListener('scroll', handleScroll);
+            }, []);
+
+            const navLinks = [
+                { name: 'Home', href: '#' },
+                { name: 'Research', href: '#research' },
+                { name: 'Members', href: '#members' },
+                { name: 'Publications', href: '#publications' },
+                { name: 'Gallery', href: '#gallery' },
+                { name: 'News', href: '#news' },
+                { name: 'Contact', href: '#contact' },
+            ];
+
+            return (
+                <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-4' : 'bg-transparent py-6'}`}>
+                    <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
+                        <div className="flex flex-col">
+                            <h1 className={`text-3xl font-bold tracking-tighter ${isScrolled ? 'text-blue-900' : 'text-white'}`}>
+                                EESL
+                            </h1>
+                            <span className={`text-xs font-medium tracking-widest uppercase ${isScrolled ? 'text-gray-600' : 'text-gray-200'}`}>
+                                Kangwon National University
+                            </span>
+                        </div>
+                        <div className="hidden md:flex space-x-8">
+                            {navLinks.map((link) => (
+                                <a
+                                    key={link.name}
+                                    href={link.href}
+                                    className={`text-sm font-semibold hover:text-blue-500 transition-colors ${isScrolled ? 'text-gray-700' : 'text-white'}`}
+                                >
+                                    {link.name}
+                                </a>
+                            ))}
+                        </div>
+                    </div>
+                </nav>
+            );
+        };
+
+        const Hero = () => {
+            // Using placeholder if local image fails, but trying local first
+            const bgImage = "src/assets/hero-bg.png";
+
+            return (
+                <div className="relative h-screen flex items-center justify-center overflow-hidden">
+                    <div
+                        className="absolute inset-0 bg-cover bg-center z-0"
+                        style={{ backgroundImage: `url('${bgImage}')`, backgroundColor: '#001a4d' }}
+                    >
+                        <div className="absolute inset-0 bg-black/40"></div>
+                    </div>
+                    <div className="relative z-10 text-center px-4 max-w-5xl mx-auto mt-16">
+                        <h2 className="text-xl md:text-2xl text-blue-300 font-semibold mb-4 tracking-widest uppercase">
+                            Kangwon National University
+                        </h2>
+                        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+                            Electrochemical Energy <br /> Storage Laboratory
+                        </h1>
+                        <p className="text-gray-200 text-lg md:text-xl max-w-2xl mx-auto mb-10">
+                            Pioneering the future of secondary batteries through advanced interface engineering and material science.
+                        </p>
+                        <a
+                            href="#research"
+                            className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition-all hover:scale-105 shadow-lg"
+                        >
+                            Explore Our Research
+                        </a>
+                    </div>
+                </div>
+            );
+        };
+
+        const Section = ({ id, title, children, bgColor = 'bg-white' }) => {
+            return (
+                <section id={id} className={`py-16 px-4 md:px-12 ${bgColor}`}>
+                    <div className="max-w-6xl mx-auto">
+                        <h2 className="text-3xl font-bold mb-8 text-gray-900 border-b-2 border-blue-600 inline-block pb-1">
+                            {title}
+                        </h2>
+                        <div>{children}</div>
+                    </div>
+                </section>
+            );
+        };
+
+        const Footer = () => {
+            return (
+                <footer className="bg-gray-900 text-white py-12">
+                    <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
+                        <div>
+                            <h4 className="text-lg font-bold mb-4">EESL</h4>
+                            <p className="text-gray-400">
+                                Electrochemical Energy Storage Laboratory<br />
+                                Kangwon National University
+                            </p>
+                            <p className="text-gray-400 mt-2">
+                                &copy; {new Date().getFullYear()} EESL. All rights reserved.
+                            </p>
+                        </div>
+                        <div>
+                            <h4 className="text-lg font-bold mb-4">Quick Links</h4>
+                            <ul className="space-y-2 text-gray-400">
+                                <li><a href="#" className="hover:text-white">Home</a></li>
+                                <li><a href="#research" className="hover:text-white">Research</a></li>
+                                <li><a href="#publications" className="hover:text-white">Publications</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 className="text-lg font-bold mb-4">Contact</h4>
+                            <p className="text-gray-400">
+                                Engineering Building 4<br />
+                                Chuncheon, Gangwon-do
+                            </p>
+                        </div>
+                    </div>
+                </footer>
+            );
+        };
+
+        // --- MAIN APP ---
+
+        function App() {
+            return (
+                <div className="min-h-screen bg-white">
+                    <Navbar />
+                    <Hero />
+                    <main>
+                        <Section id="research" title="Research" bgColor="bg-gray-50">
+                            <p className="text-lg text-gray-600 leading-relaxed max-w-4xl">
+                                At EESL, our mission is to pioneer advanced electrode interfaces for next-generation secondary batteries.
+                                We focus on understanding electrochemical phenomena at the atomic level to enhance performance and safety.
+                            </p>
+                        </Section>
+                        <Section id="members" title="Members" bgColor="bg-white">
+                            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                                {['Professor', 'Graduate Students', 'Alumni'].map((group) => (
+                                    <div key={group} className="p-6 border rounded-lg hover:shadow-lg transition-shadow">
+                                        <h3 className="text-xl font-bold mb-2">{group}</h3>
+                                        <p className="text-gray-500">View Details</p>
+                                    </div>
+                                ))}
+                            </div>
+                        </Section>
+                        <Section id="publications" title="Publications" bgColor="bg-gray-50">
+                            <ul className="space-y-4">
+                                <li className="bg-white p-4 rounded shadow-sm border-l-4 border-blue-600">
+                                    <span className="font-semibold block">Recent Breakthrough in Lithium Metal Anodes</span>
+                                    <span className="text-sm text-gray-500">Journal of Power Sources, 2025</span>
+                                </li>
+                                <li className="bg-white p-4 rounded shadow-sm border-l-4 border-blue-600">
+                                    <span className="font-semibold block">Solid State Electrolyte Interfacial Stability</span>
+                                    <span className="text-sm text-gray-500">Advanced Energy Materials, 2024</span>
+                                </li>
+                            </ul>
+                        </Section>
+                        <Section id="gallery" title="Gallery" bgColor="bg-white">
+                            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                                <div className="h-40 bg-gray-200 rounded animate-pulse"></div>
+                                <div className="h-40 bg-gray-200 rounded animate-pulse"></div>
+                                <div className="h-40 bg-gray-200 rounded animate-pulse"></div>
+                                <div className="h-40 bg-gray-200 rounded animate-pulse"></div>
+                            </div>
+                        </Section>
+                        <Section id="news" title="News" bgColor="bg-gray-50">
+                            <div className="space-y-4">
+                                <div className="border-b pb-2">
+                                    <span className="text-blue-600 font-bold mr-2">[Feb 2026]</span>
+                                    <span>New publication accepted in Nature Communications.</span>
+                                </div>
+                                <div className="border-b pb-2">
+                                    <span className="text-blue-600 font-bold mr-2">[Jan 2026]</span>
+                                    <span>Welcome new PhD students to the lab!</span>
+                                </div>
+                            </div>
+                        </Section>
+                        <Section id="contact" title="Contact" bgColor="bg-white">
+                            <div className="flex flex-col md:flex-row gap-8">
+                                <div className="flex-1">
+                                    <h3 className="text-xl font-bold mb-4">Location</h3>
+                                    <p>Kangwon National University</p>
+                                    <p>Engineering Building 4</p>
+                                    <p>Chuncheon, Gangwon-do, Republic of Korea</p>
+                                </div>
+                                <div className="flex-1">
+                                    <h3 className="text-xl font-bold mb-4">Get in Touch</h3>
+                                    <p>Email: contact@eesl.knu.ac.kr</p>
+                                    <p>Phone: +82-33-250-1234</p>
+                                </div>
+                            </div>
+                        </Section>
+                    </main>
+                    <Footer />
+                </div>
+            );
+        }
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+</body>
+
+</html>

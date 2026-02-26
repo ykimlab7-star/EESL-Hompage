@@ -1,0 +1,21 @@
+
+c:\homepage\SynologyDrive>cd /d C:\homepage\SynologyDrive 
+
+c:\homepage\SynologyDrive>npm install 
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+
+changed 25 packages, and audited 335 packages in 3s
+
+124 packages are looking for funding
+  run `npm fund` for details
+
+6 vulnerabilities (4 moderate, 2 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.

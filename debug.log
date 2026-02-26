@@ -1,0 +1,8 @@
+npm warn Unknown cli config "--debug". This will stop working in the next major version of npm.
+
+> eesl-homepage@0.0.0 build
+> vite build
+
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 1421 modules transformed.
