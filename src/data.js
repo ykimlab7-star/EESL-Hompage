@@ -914,6 +914,19 @@ export const galleryData = [
             "/images/gallery-2025-summer-workshop-2.png",
             "/images/gallery-2025-summer-workshop-3.png"
         ]
+    },
+    {
+        id: 32,
+        title: "2025 한국전기화학회 (11/19 ~ 11/21)",
+        date: "2025.11",
+        description: "",
+        thumbnail: "/images/gallery-kes-2025-1.png",
+        images: [
+            "/images/gallery-kes-2025-1.png",
+            "/images/gallery-kes-2025-2.png",
+            "/images/gallery-kes-2025-3.png",
+            "/images/gallery-kes-2025-4.png"
+        ]
     }
     // Add more gallery items
 ];
