@@ -15,7 +15,7 @@ const GalleryDetail = () => {
             <div className="pt-24 min-h-screen flex items-center justify-center">
                 <div className="text-center">
                     <p className="text-gray-500 text-xl mb-4">갤러리 항목을 찾을 수 없습니다.</p>
-                    <button onClick={() => navigate('/gallery')} className="hover:underline" style={{ color: '#1e3a5f' }}>
+                    <button onClick={() => navigate(-1)} className="hover:underline" style={{ color: '#1e3a5f' }}>
                         갤러리로 돌아가기
                     </button>
                 </div>
@@ -36,7 +36,7 @@ const GalleryDetail = () => {
 
                 {/* Back button */}
                 <button
-                    onClick={() => navigate('/gallery')}
+                    onClick={() => navigate(-1)}
                     className="flex items-center gap-2 hover:opacity-70 mb-8 transition-colors text-sm font-medium" style={{ color: '#1e3a5f' }}
                 >
                     <ArrowLeft size={16} />

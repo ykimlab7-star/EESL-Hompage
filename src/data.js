@@ -927,6 +927,20 @@ export const galleryData = [
             "/images/gallery-kes-2025-3.png",
             "/images/gallery-kes-2025-4.png"
         ]
+    },
+    {
+        id: 33,
+        title: "EESL 축 졸업🎉",
+        date: "2026.02",
+        description: "'석사 최시은, 허보성'",
+        description2: "'학부 이상현, 최정빈, 서하진, 백승준'",
+        thumbnail: "/images/gallery-graduation-2026-1.jpg",
+        images: [
+            "/images/gallery-graduation-2026-1.jpg",
+            "/images/gallery-graduation-2026-2.jpg",
+            "/images/gallery-graduation-2026-3.jpg",
+            "/images/gallery-graduation-2026-4.jpg"
+        ]
     }
     // Add more gallery items
 ];

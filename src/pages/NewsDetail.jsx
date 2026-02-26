@@ -1,16 +1,17 @@
 import React from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { newsData } from '../data';
 
 const NewsDetail = () => {
     const { id } = useParams();
+    const navigate = useNavigate();
     const news = newsData.find(item => item.id === parseInt(id));
 
     if (!news) {
         return (
             <div className="pt-32 pb-20 min-h-screen flex flex-col items-center justify-center bg-gray-50">
                 <h2 className="text-3xl font-bold text-gray-800 mb-4">News Not Found</h2>
-                <Link to="/news" className="hover:underline font-semibold" style={{ color: '#1e3a5f' }}>← Back to News</Link>
+                <button onClick={() => navigate(-1)} className="hover:underline font-semibold" style={{ color: '#1e3a5f' }}>← Back to News</button>
             </div>
         );
     }
@@ -26,9 +27,9 @@ const NewsDetail = () => {
             {/* Header Section */}
             <div className="bg-slate-50 border-b border-slate-200 py-12 md:py-20 mb-10">
                 <div className="max-w-3xl mx-auto px-6">
-                    <Link to="/news" className="inline-flex items-center mb-8 font-medium transition-colors text-sm uppercase tracking-wider hover:opacity-70" style={{ color: '#1e3a5f' }}>
+                    <button onClick={() => navigate(-1)} className="inline-flex items-center mb-8 font-medium transition-colors text-sm uppercase tracking-wider hover:opacity-70" style={{ color: '#1e3a5f' }}>
                         <span className="mr-2">&larr;</span> Back to News
-                    </Link>
+                    </button>
 
                     <div className="mb-6 flex items-center gap-4">
                         <span className="inline-block px-3 py-1 text-xs font-bold uppercase tracking-widest rounded-sm" style={{ backgroundColor: '#e8ecf4', color: '#1e3a5f' }}>

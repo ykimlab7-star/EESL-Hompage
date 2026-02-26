@@ -61,6 +61,7 @@ const Gallery = () => {
                                                     <>
                                                         <p className="font-black text-base text-center" style={{ color: '#050d1f' }}>{match[1]}</p>
                                                         {item.description && <p className="text-sm font-semibold text-center mt-1" style={{ color: '#1e3a5f' }}>{item.description}</p>}
+                                                        {item.description2 && <p className="text-sm font-semibold text-center mt-1" style={{ color: '#1e3a5f' }}>{item.description2}</p>}
                                                         <p className="text-sm font-semibold text-center mt-1" style={{ color: '#1e3a5f' }}>'{match[2]}'</p>
                                                     </>
                                                 );
@@ -69,6 +70,7 @@ const Gallery = () => {
                                                 <>
                                                     <p className="font-black text-base text-center" style={{ color: '#050d1f' }}>{item.title}</p>
                                                     {item.description && <p className="text-sm font-semibold text-center mt-1" style={{ color: '#1e3a5f' }}>{item.description}</p>}
+                                                    {item.description2 && <p className="text-sm font-semibold text-center mt-1" style={{ color: '#1e3a5f' }}>{item.description2}</p>}
                                                 </>
                                             );
                                         })()}

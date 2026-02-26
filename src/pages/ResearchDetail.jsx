@@ -1,9 +1,10 @@
 import React from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { researchData } from '../data';
 
 const ResearchDetail = () => {
     const { id } = useParams();
+    const navigate = useNavigate();
     const researchId = parseInt(id, 10);
     const research = researchData.find(r => r.id === researchId);
 
@@ -11,7 +12,7 @@ const ResearchDetail = () => {
         return (
             <div className="pt-32 pb-20 min-h-screen flex flex-col items-center justify-center bg-gray-50">
                 <h2 className="text-3xl font-bold text-gray-800 mb-4">Research Topic Not Found</h2>
-                <Link to="/research" className="hover:underline font-semibold" style={{ color: '#050d1f' }}>← Back to Research</Link>
+                <button onClick={() => navigate(-1)} className="hover:underline font-semibold" style={{ color: '#050d1f' }}>← Back to Research</button>
             </div>
         );
     }
@@ -21,9 +22,9 @@ const ResearchDetail = () => {
             {/* Header Section */}
             <div className="bg-slate-50 border-b border-slate-200 py-12 md:py-20 mb-10">
                 <div className="max-w-4xl mx-auto px-6">
-                    <Link to="/research" className="inline-flex items-center mb-8 font-medium transition-colors text-sm uppercase tracking-wider hover:opacity-70" style={{ color: '#050d1f' }}>
+                    <button onClick={() => navigate(-1)} className="inline-flex items-center mb-8 font-medium transition-colors text-sm uppercase tracking-wider hover:opacity-70" style={{ color: '#050d1f' }}>
                         <span className="mr-2">&larr;</span> Back to Research
-                    </Link>
+                    </button>
 
                     <div className="flex items-center gap-4 mb-6">
                         <span className="inline-block px-3 py-1 text-xs font-bold uppercase tracking-widest rounded-sm" style={{ backgroundColor: '#e8ecf4', color: '#050d1f' }}>
