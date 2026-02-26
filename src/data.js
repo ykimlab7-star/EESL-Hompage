@@ -865,9 +865,42 @@ export const galleryData = [
         title: "2025 미래 세대의 리더, 용기의 사나이 '서하진'",
         date: "2025.02",
         description: "현대자동차 정몽구 재단 장학생",
-        thumbnail: "/images/gallery-hyundai-scholarship-1.jpg",
+        thumbnail: "/images/gallery-hyundai-scholarship-1.png",
         images: [
-            "/images/gallery-hyundai-scholarship-1.jpg"
+            "/images/gallery-hyundai-scholarship-1.png"
+        ]
+    },
+    {
+        id: 28,
+        title: "EESL 1기 학부 졸업식",
+        date: "2025.02",
+        description: "",
+        thumbnail: "/images/gallery-eesl-graduation-1st-1.png",
+        images: [
+            "/images/gallery-eesl-graduation-1st-1.png",
+            "/images/gallery-eesl-graduation-1st-2.png"
+        ]
+    },
+    {
+        id: 29,
+        title: "2025 Inter Battery (03/07)",
+        date: "2025.03",
+        description: "",
+        thumbnail: "/images/gallery-interbattery-2025-1.png",
+        images: [
+            "/images/gallery-interbattery-2025-1.png",
+            "/images/gallery-interbattery-2025-2.png",
+            "/images/gallery-interbattery-2025-3.png"
+        ]
+    },
+    {
+        id: 30,
+        title: "🎉교수님 생신🎉(04/23)",
+        date: "2025.04",
+        description: "",
+        thumbnail: "/images/gallery-birthday-prof-2025-1.png",
+        images: [
+            "/images/gallery-birthday-prof-2025-1.png"
         ]
     }
     // Add more gallery items
