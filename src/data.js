@@ -815,12 +815,13 @@ export const galleryData = [
         title: "2024 하계 MT - 강릉 (08/12~08/14) 🏊",
         date: "2024.08",
         description: "",
-        thumbnail: "/images/gallery-2024-summer-mt-1.jpg",
+        thumbnail: "/images/gallery-2024-summer-mt-1.png",
         images: [
-            "/images/gallery-2024-summer-mt-1.jpg",
-            "/images/gallery-2024-summer-mt-2.jpg",
-            "/images/gallery-2024-summer-mt-3.jpg",
-            "/images/gallery-2024-summer-mt-4.jpg"
+            "/images/gallery-2024-summer-mt-1.png",
+            "/images/gallery-2024-summer-mt-2.png",
+            "/images/gallery-2024-summer-mt-3.png",
+            "/images/gallery-2024-summer-mt-4.png",
+            "/images/gallery-2024-summer-mt-5.png"
         ]
     }
     // Add more gallery items
