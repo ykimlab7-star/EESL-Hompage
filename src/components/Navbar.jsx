@@ -85,7 +85,7 @@ const Navbar = () => {
                                                 to="/members?tab=students"
                                                 className="px-6 py-4 text-white text-sm hover:bg-[#386baf] transition-colors text-center border-b border-transparent"
                                             >
-                                                Current Members
+                                                Students
                                             </Link>
                                             <div className="h-px bg-white/20 mx-4"></div>
                                             <Link
