@@ -41,12 +41,12 @@ const Gallery = () => {
                                     to={`/gallery/${item.id}`}
                                     className="group rounded-lg shadow-lg cursor-pointer overflow-hidden hover:shadow-xl transition-shadow duration-300"
                                 >
-                                    <div className="aspect-[4/3] bg-gray-200 overflow-hidden flex items-center justify-center text-gray-400">
+                                    <div className="aspect-[4/3] bg-white overflow-hidden flex items-center justify-center text-gray-400">
                                         {item.thumbnail ? (
                                             <img
                                                 src={item.thumbnail}
                                                 alt={item.title}
-                                                className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105"
+                                                className={`w-full h-full ${item.thumbnailContain ? 'object-contain' : 'object-cover'} transition-transform duration-300 group-hover:scale-105`}
                                                 onError={(e) => { e.target.style.display = 'none'; }}
                                             />
                                         ) : (

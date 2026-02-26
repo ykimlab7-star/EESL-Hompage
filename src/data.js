@@ -809,6 +809,19 @@ export const galleryData = [
         images: [
             "/images/gallery-birthday-prof-1.jpg"
         ]
+    },
+    {
+        id: 23,
+        title: "2024 하계 MT - 강릉 (08/12~08/14) 🏊",
+        date: "2024.08",
+        description: "",
+        thumbnail: "/images/gallery-2024-summer-mt-1.jpg",
+        images: [
+            "/images/gallery-2024-summer-mt-1.jpg",
+            "/images/gallery-2024-summer-mt-2.jpg",
+            "/images/gallery-2024-summer-mt-3.jpg",
+            "/images/gallery-2024-summer-mt-4.jpg"
+        ]
     }
     // Add more gallery items
 ];

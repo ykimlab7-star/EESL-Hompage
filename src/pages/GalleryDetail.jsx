@@ -56,7 +56,7 @@ const GalleryDetail = () => {
                 {/* Main Large Square Photo */}
                 {item.images && item.images.length > 0 && (
                     <div
-                        className="w-full aspect-square bg-gray-200 overflow-hidden shadow-xl mb-10 cursor-pointer group"
+                        className="w-full aspect-square bg-white overflow-hidden shadow-xl mb-10 cursor-pointer group"
                         onClick={() => openLightbox(0)}
                     >
                         <img
@@ -74,7 +74,7 @@ const GalleryDetail = () => {
                         {item.images.slice(1).map((src, index) => (
                             <div
                                 key={index}
-                                className="w-full aspect-square bg-gray-200 overflow-hidden shadow-xl cursor-pointer group"
+                                className="w-full aspect-square bg-white overflow-hidden shadow-xl cursor-pointer group"
                                 onClick={() => openLightbox(index + 1)}
                             >
                                 <img
