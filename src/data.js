@@ -986,7 +986,7 @@ export const researchData = [
     {
         id: 1,
         title: "Mechanism Study on NCM, NCA, LMR, and Co-Free Cathodes",
-        description: "Our research focuses on understanding the fundamental degradation mechanisms of high-nickel layered oxide cathodes (NCM/NCA), Li-rich materials (LMR), and Co-free systems.",
+        description: "Elucidating fundamental degradation and interfacial mechanisms in advanced layered oxide cathodes to enable stable, high-voltage, and cobalt-free energy storage systems.",
         content: `
             <p class="mb-4">Our research focuses on understanding the fundamental degradation mechanisms of high-nickel layered oxide cathodes (NCM/NCA), Li-rich materials (LMR), and Co-free systems.</p>
             <ul class="list-disc list-inside mb-4 space-y-2">
@@ -1002,7 +1002,7 @@ export const researchData = [
     {
         id: 2,
         title: "High-Energy-Density Electrode Materials for Na-Ion Batteries",
-        description: "We develop advanced electrode materials and interfacial chemistries to enable high-energy and durable sodium-ion batteries.",
+        description: "Designing high-capacity sodium-ion electrode materials and interfacial chemistries to achieve durable and scalable next-generation energy storage.",
         content: `
             <p class="mb-4">We develop advanced electrode materials and interfacial chemistries to enable high-energy and durable sodium-ion batteries.</p>
             <ul class="list-disc list-inside mb-4 space-y-2">
@@ -1018,7 +1018,7 @@ export const researchData = [
     {
         id: 3,
         title: "2D Protection Layers for Li Metal Anodes",
-        description: "We explore two-dimensional (2D) material-based interfacial engineering to stabilize lithium metal anodes.",
+        description: "Engineering two-dimensional protective interphases to stabilize lithium metal anodes and suppress dendrite growth for high-energy batteries.",
         content: `
             <p class="mb-4">We explore two-dimensional (2D) material-based interfacial engineering to stabilize lithium metal anodes.</p>
             <ul class="list-disc list-inside mb-4 space-y-2">
