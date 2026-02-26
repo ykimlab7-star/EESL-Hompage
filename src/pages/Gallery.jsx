@@ -46,7 +46,7 @@ const Gallery = () => {
                                             <img
                                                 src={item.thumbnail}
                                                 alt={item.title}
-                                                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                                                className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-105"
                                                 onError={(e) => { e.target.style.display = 'none'; }}
                                             />
                                         ) : (
@@ -66,6 +66,7 @@ const Gallery = () => {
                                             }
                                             return <p className="font-black text-base text-center" style={{ color: '#050d1f' }}>{item.title}</p>;
                                         })()}
+                                        {item.description && <p className="text-sm font-semibold text-center mt-1" style={{ color: '#1e3a5f' }}>{item.description}</p>}
                                         {item.date && <p className="text-gray-400 text-xs text-center mt-1">{item.date}</p>}
                                     </div>
                                 </Link>

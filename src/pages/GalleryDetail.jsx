@@ -62,7 +62,7 @@ const GalleryDetail = () => {
                         <img
                             src={item.images[0]}
                             alt={item.title}
-                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
                             onError={(e) => { e.target.style.display = 'none'; }}
                         />
                     </div>
@@ -80,7 +80,7 @@ const GalleryDetail = () => {
                                 <img
                                     src={src}
                                     alt={`${item.title} ${index + 2}`}
-                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                    className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
                                     onError={(e) => { e.target.style.display = 'none'; }}
                                 />
                             </div>

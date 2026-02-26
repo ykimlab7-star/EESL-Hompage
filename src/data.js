@@ -721,6 +721,94 @@ export const galleryData = [
         images: [
             "/images/gallery-eesl-2023-1.jpg"
         ]
+    },
+    {
+        id: 15,
+        title: "2023 EESL 송년회☺️",
+        date: "2023.12",
+        description: "",
+        thumbnail: "/images/gallery-yearend-2023-1.jpg",
+        images: [
+            "/images/gallery-yearend-2023-1.jpg"
+        ]
+    },
+    {
+        id: 16,
+        title: "The Future of Secondary Battery Technology",
+        date: "2024.01",
+        description: "Arumugam Manthiram & Ykim",
+        thumbnail: "/images/gallery-battery-symposium-1.jpg",
+        images: [
+            "/images/gallery-battery-symposium-1.jpg"
+        ]
+    },
+    {
+        id: 17,
+        title: "2024 New EESL Assemble",
+        date: "2024.01",
+        description: "",
+        thumbnail: "/images/gallery-eesl-assemble-1.jpg",
+        images: [
+            "/images/gallery-eesl-assemble-1.jpg"
+        ]
+    },
+    {
+        id: 18,
+        title: "2024 동계 MT - 양양 (2/5 ~ 2/7)",
+        date: "2024.02",
+        description: "",
+        thumbnail: "/images/gallery-2024-mt-1.jpg",
+        images: [
+            "/images/gallery-2024-mt-1.jpg",
+            "/images/gallery-2024-mt-2.jpg",
+            "/images/gallery-2024-mt-3.jpg",
+            "/images/gallery-2024-mt-4.jpg",
+            "/images/gallery-2024-mt-5.jpg"
+        ]
+    },
+    {
+        id: 19,
+        title: "학부 졸업 '최시은'",
+        date: "2024.02",
+        description: "",
+        thumbnail: "/images/gallery-graduation-sieun-1.jpg",
+        images: [
+            "/images/gallery-graduation-sieun-1.jpg",
+            "/images/gallery-graduation-sieun-2.jpg",
+            "/images/gallery-graduation-sieun-3.jpg"
+        ]
+    },
+    {
+        id: 20,
+        title: "행복한 EESL",
+        date: "2024.04",
+        description: "",
+        thumbnail: "/images/gallery-happy-eesl-1.jpg",
+        images: [
+            "/images/gallery-happy-eesl-1.jpg"
+        ]
+    },
+    {
+        id: 21,
+        title: "2024 춘계 전기화학회",
+        date: "2024.04",
+        description: "",
+        thumbnail: "/images/gallery-electrochemistry-2024-1.jpg",
+        images: [
+            "/images/gallery-electrochemistry-2024-1.jpg",
+            "/images/gallery-electrochemistry-2024-2.jpg"
+        ]
+    },
+    {
+        id: 22,
+        title: "교수님 생신축하드려요 🥳😍🎉",
+        date: "2024.04",
+        description: "",
+        thumbnailContain: true,
+        thumbnail: "/images/gallery-birthday-prof-1.jpg",
+        images: [
+            "/images/gallery-birthday-prof-1.jpg"
+        ]
     }
     // Add more gallery items
 ];
