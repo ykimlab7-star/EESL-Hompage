@@ -60,13 +60,18 @@ const Gallery = () => {
                                                 return (
                                                     <>
                                                         <p className="font-black text-base text-center" style={{ color: '#050d1f' }}>{match[1]}</p>
+                                                        {item.description && <p className="text-sm font-semibold text-center mt-1" style={{ color: '#1e3a5f' }}>{item.description}</p>}
                                                         <p className="text-sm font-semibold text-center mt-1" style={{ color: '#1e3a5f' }}>'{match[2]}'</p>
                                                     </>
                                                 );
                                             }
-                                            return <p className="font-black text-base text-center" style={{ color: '#050d1f' }}>{item.title}</p>;
+                                            return (
+                                                <>
+                                                    <p className="font-black text-base text-center" style={{ color: '#050d1f' }}>{item.title}</p>
+                                                    {item.description && <p className="text-sm font-semibold text-center mt-1" style={{ color: '#1e3a5f' }}>{item.description}</p>}
+                                                </>
+                                            );
                                         })()}
-                                        {item.description && <p className="text-sm font-semibold text-center mt-1" style={{ color: '#1e3a5f' }}>{item.description}</p>}
                                         {item.date && <p className="text-gray-400 text-xs text-center mt-1">{item.date}</p>}
                                     </div>
                                 </Link>

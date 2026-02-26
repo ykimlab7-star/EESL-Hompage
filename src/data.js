@@ -835,6 +835,40 @@ export const galleryData = [
             "/images/gallery-kbattery-2024-2.png",
             "/images/gallery-kbattery-2024-3.png"
         ]
+    },
+    {
+        id: 25,
+        title: "2024 연말 PARTY (11/22)",
+        date: "2024.11",
+        description: "",
+        thumbnail: "/images/gallery-yearend-party-2024-1.png",
+        images: [
+            "/images/gallery-yearend-party-2024-1.png",
+            "/images/gallery-yearend-party-2024-2.png",
+            "/images/gallery-yearend-party-2024-3.png",
+            "/images/gallery-yearend-party-2024-4.png"
+        ]
+    },
+    {
+        id: 26,
+        title: "축 졸업🎉 '김인혜, 조준희'",
+        date: "2025.02",
+        description: "",
+        thumbnail: "/images/gallery-graduation-2025-1.png",
+        images: [
+            "/images/gallery-graduation-2025-1.png",
+            "/images/gallery-graduation-2025-2.png"
+        ]
+    },
+    {
+        id: 27,
+        title: "2025 미래 세대의 리더, 용기의 사나이 '서하진'",
+        date: "2025.02",
+        description: "현대자동차 정몽구 재단 장학생",
+        thumbnail: "/images/gallery-hyundai-scholarship-1.jpg",
+        images: [
+            "/images/gallery-hyundai-scholarship-1.jpg"
+        ]
     }
     // Add more gallery items
 ];
