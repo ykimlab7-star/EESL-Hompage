@@ -902,6 +902,18 @@ export const galleryData = [
         images: [
             "/images/gallery-birthday-prof-2025-1.png"
         ]
+    },
+    {
+        id: 31,
+        title: "2025 하계 워크숍 - 양양 (08/11 ~ 08/12)",
+        date: "2025.08",
+        description: "",
+        thumbnail: "/images/gallery-2025-summer-workshop-1.png",
+        images: [
+            "/images/gallery-2025-summer-workshop-1.png",
+            "/images/gallery-2025-summer-workshop-2.png",
+            "/images/gallery-2025-summer-workshop-3.png"
+        ]
     }
     // Add more gallery items
 ];
