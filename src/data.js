@@ -45,6 +45,7 @@ export const membersData = {
             id: "g5",
             name: "Sanghyeok Moon",
             degree: "Master student",
+            email: "q7634407@naver.com",
             image: "/images/Sanghyeok Moon.png"
         },
         {
