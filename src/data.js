@@ -31,7 +31,6 @@ export const membersData = {
             id: "g3",
             name: "Sangbeom Kim",
             degree: "Combined BS/MS student",
-            research: "layered structure cathode material",
             email: "sangbum1127@naver.com",
             image: "/images/Sangbeom Kim.png"
         },
@@ -39,7 +38,6 @@ export const membersData = {
             id: "g4",
             name: "Seonho Kim",
             degree: "Combined BS/MS student",
-            research: "layered structure cathode material",
             email: "tjsgh0928@naver.com",
             image: "/images/Seonho Kim.png"
         },
@@ -47,15 +45,12 @@ export const membersData = {
             id: "g5",
             name: "Sanghyeok Moon",
             degree: "Master student",
-            research: "layered structure cathode material",
-            email: "q7634407@naver.com",
             image: "/images/Sanghyeok Moon.png"
         },
         {
             id: "g6",
             name: "Seungjun Baek",
             degree: "Combined BS/MS student",
-            research: "layered structure cathode material",
             email: "nanim0115@naver.com",
             image: "/images/Seungjun Baek.png"
         },
@@ -63,7 +58,6 @@ export const membersData = {
             id: "g7",
             name: "Hajin Seo",
             degree: "Master student",
-            research: "layered structure cathode material",
             email: "seohajin@naver.com",
             image: "/images/Hajin Seo.png"
         },
@@ -71,7 +65,6 @@ export const membersData = {
             id: "g8",
             name: "Jungbeen Choi",
             degree: "Master student",
-            research: "layered structure cathode material",
             email: "chlwjdqls13@naver.com",
             image: "/images/Jungbeen Choi.png"
         },
@@ -79,7 +72,6 @@ export const membersData = {
             id: "g9",
             name: "Sanghyun Lee",
             degree: "Master student",
-            research: "layered structure cathode material",
             email: "lapis0621@daum.net",
             image: "/images/Sanghyun Lee.png"
         },
@@ -164,6 +156,14 @@ export const membersData = {
 };
 
 export const publications = [
+    {
+        id: 51,
+        title: "In Situ Synchrotron Characterization of Layered Oxide Cathodes for Lithium-Ion Batteries: Bridging Synthesis, Operation, and Thermal Stability",
+        authors: "Sangbeom Kim, Joon Ha Chang, Beom Tak Na, Sanghyeok Moon, Seonho Kim, Seungjun Baek, Jeong-Mi Yeon, Yu-Jin Kim, Hyun-seung Kim, Min Wook Pin, Youngjin Kim*",
+        journal: "Chem. Mater.",
+        year: 2026,
+        doi: "10.1021/acs.chemmater.5c02925"
+    },
     {
         id: 50,
         title: "Concentration-optimized boron surface modification for single-crystal high-nickel cathode stabilization",
