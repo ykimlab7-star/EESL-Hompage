@@ -58,15 +58,15 @@ const Navbar = () => {
                     </span>
                 </Link>
 
-                {/* Desktop Menu */}
-                <div className="hidden md:flex space-x-8 items-center">
+                {/* Navigation Menu */}
+                <div className="flex gap-2 sm:gap-4 md:gap-8 items-center flex-wrap justify-end">
                     {navLinks.map((link) => {
                         if (link.name === 'Members') {
                             return (
                                 <div key={link.name} className="relative group py-4">
                                     <Link
                                         to={link.href}
-                                        className={`text-[15px] font-medium transition-colors ${linkColor} capitalize`}
+                                        className={`text-[11px] sm:text-xs md:text-[15px] font-medium transition-colors ${linkColor} capitalize`}
                                     >
                                         {link.name}
                                     </Link>
@@ -104,7 +104,7 @@ const Navbar = () => {
                             <Link
                                 key={link.name}
                                 to={link.href}
-                                className={`text-[15px] font-medium transition-colors ${linkColor} capitalize`}
+                                className={`text-[11px] sm:text-xs md:text-[15px] font-medium transition-colors ${linkColor} capitalize md:whitespace-nowrap`}
                             >
                                 {link.name}
                             </Link>
