@@ -133,23 +133,41 @@ const Navbar = () => {
                 </div>
             </div>
 
-            {/* Mobile Menu Dropdown */}
-            {/* The dropdown takes full width below the navbar */}
+            {/* Mobile Menu Dropdown (Right-Side Drawer) */}
+            {/* Background Overlay */}
             <div 
-                className={`md:hidden absolute top-full left-0 w-full bg-white shadow-xl border-t border-gray-100 flex flex-col overflow-hidden transition-all duration-300 ${isMobileMenuOpen ? 'max-h-screen py-4 opacity-100 visible' : 'max-h-0 py-0 opacity-0 invisible'}`}
+                className={`md:hidden fixed inset-0 bg-black/50 z-40 transition-opacity duration-300 ${isMobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}
+                onClick={() => setIsMobileMenuOpen(false)}
+            ></div>
+
+            {/* Sliding Drawer */}
+            <div 
+                className={`md:hidden fixed top-0 right-0 h-screen w-64 bg-white shadow-2xl z-50 transform transition-transform duration-300 ease-in-out ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}
             >
-                <div className="flex flex-col px-6 space-y-4">
+                {/* Close Button Inside Menu */}
+                <div className="flex justify-end p-6">
+                    <button 
+                        onClick={() => setIsMobileMenuOpen(false)}
+                        className="p-2 text-gray-500 hover:text-gray-800 focus:outline-none"
+                    >
+                        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+
+                <div className="flex flex-col px-6 space-y-6">
                     {navLinks.map((link) => {
                         if (link.name === 'Members') {
                             return (
-                                <div key={link.name} className="flex flex-col space-y-2">
-                                    <Link to={link.href} className="text-gray-800 font-semibold text-lg" onClick={() => setIsMobileMenuOpen(false)}>
+                                <div key={link.name} className="flex flex-col space-y-3 border-b border-gray-100 pb-4">
+                                    <Link to={link.href} className="text-gray-800 font-bold text-lg" onClick={() => setIsMobileMenuOpen(false)}>
                                         {link.name}
                                     </Link>
-                                    <div className="pl-4 flex flex-col space-y-3 border-l-2 border-[#2a5082] mt-2 mb-2">
-                                        <Link to="/members?tab=professor" className="text-gray-600 font-medium" onClick={() => setIsMobileMenuOpen(false)}>Professor</Link>
-                                        <Link to="/members?tab=students" className="text-gray-600 font-medium" onClick={() => setIsMobileMenuOpen(false)}>Students</Link>
-                                        <Link to="/members?tab=alumni" className="text-gray-600 font-medium" onClick={() => setIsMobileMenuOpen(false)}>Alumni</Link>
+                                    <div className="pl-4 flex flex-col space-y-4 border-l-2 border-[#2a5082] mt-2">
+                                        <Link to="/members?tab=professor" className="text-gray-600 font-medium hover:text-[#2a5082]" onClick={() => setIsMobileMenuOpen(false)}>Professor</Link>
+                                        <Link to="/members?tab=students" className="text-gray-600 font-medium hover:text-[#2a5082]" onClick={() => setIsMobileMenuOpen(false)}>Students</Link>
+                                        <Link to="/members?tab=alumni" className="text-gray-600 font-medium hover:text-[#2a5082]" onClick={() => setIsMobileMenuOpen(false)}>Alumni</Link>
                                     </div>
                                 </div>
                             );
@@ -158,7 +176,7 @@ const Navbar = () => {
                             <Link
                                 key={link.name}
                                 to={link.href}
-                                className="text-gray-800 font-semibold text-lg"
+                                className="text-gray-800 font-bold text-lg border-b border-gray-100 pb-4 hover:text-[#2a5082]"
                                 onClick={() => setIsMobileMenuOpen(false)}
                             >
                                 {link.name}
