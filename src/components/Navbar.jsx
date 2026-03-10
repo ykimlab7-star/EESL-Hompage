@@ -3,7 +3,13 @@ import { Link, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const location = useLocation();
+
+    // Close mobile menu when route changes
+    useEffect(() => {
+        setIsMobileMenuOpen(false);
+    }, [location]);
 
     // Check if we are on the home page
     const isHome = location.pathname === '/';
@@ -58,15 +64,29 @@ const Navbar = () => {
                     </span>
                 </Link>
 
-                {/* Navigation Menu */}
-                <div className="flex gap-2 sm:gap-4 md:gap-8 items-center flex-wrap justify-end">
+                {/* Hamburger Button (Mobile Only) */}
+                <button
+                    className={`md:hidden p-2 rounded-md focus:outline-none transition-colors ${linkColor}`}
+                    onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                >
+                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        {isMobileMenuOpen ? (
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
+                        ) : (
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        )}
+                    </svg>
+                </button>
+
+                {/* Desktop Menu */}
+                <div className="hidden md:flex space-x-8 items-center">
                     {navLinks.map((link) => {
                         if (link.name === 'Members') {
                             return (
                                 <div key={link.name} className="relative group py-4">
                                     <Link
                                         to={link.href}
-                                        className={`text-[11px] sm:text-xs md:text-[15px] font-medium transition-colors ${linkColor} capitalize`}
+                                        className={`text-[15px] font-medium transition-colors ${linkColor} capitalize`}
                                     >
                                         {link.name}
                                     </Link>
@@ -104,7 +124,42 @@ const Navbar = () => {
                             <Link
                                 key={link.name}
                                 to={link.href}
-                                className={`text-[11px] sm:text-xs md:text-[15px] font-medium transition-colors ${linkColor} capitalize md:whitespace-nowrap`}
+                                className={`text-[15px] font-medium transition-colors ${linkColor} capitalize`}
+                            >
+                                {link.name}
+                            </Link>
+                        );
+                    })}
+                </div>
+            </div>
+
+            {/* Mobile Menu Dropdown */}
+            {/* The dropdown takes full width below the navbar */}
+            <div 
+                className={`md:hidden absolute top-full left-0 w-full bg-white shadow-xl border-t border-gray-100 flex flex-col overflow-hidden transition-all duration-300 ${isMobileMenuOpen ? 'max-h-screen py-4 opacity-100 visible' : 'max-h-0 py-0 opacity-0 invisible'}`}
+            >
+                <div className="flex flex-col px-6 space-y-4">
+                    {navLinks.map((link) => {
+                        if (link.name === 'Members') {
+                            return (
+                                <div key={link.name} className="flex flex-col space-y-2">
+                                    <Link to={link.href} className="text-gray-800 font-semibold text-lg" onClick={() => setIsMobileMenuOpen(false)}>
+                                        {link.name}
+                                    </Link>
+                                    <div className="pl-4 flex flex-col space-y-3 border-l-2 border-[#2a5082] mt-2 mb-2">
+                                        <Link to="/members?tab=professor" className="text-gray-600 font-medium" onClick={() => setIsMobileMenuOpen(false)}>Professor</Link>
+                                        <Link to="/members?tab=students" className="text-gray-600 font-medium" onClick={() => setIsMobileMenuOpen(false)}>Students</Link>
+                                        <Link to="/members?tab=alumni" className="text-gray-600 font-medium" onClick={() => setIsMobileMenuOpen(false)}>Alumni</Link>
+                                    </div>
+                                </div>
+                            );
+                        }
+                        return (
+                            <Link
+                                key={link.name}
+                                to={link.href}
+                                className="text-gray-800 font-semibold text-lg"
+                                onClick={() => setIsMobileMenuOpen(false)}
                             >
                                 {link.name}
                             </Link>
