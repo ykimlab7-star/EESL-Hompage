@@ -964,6 +964,13 @@ The study, titled "<span class="italic font-medium">Interfacial Stability Enhanc
         image: "/images/news 1.jpg" // 이미지 경로를 여기에 추가하세요!
     },
     {
+        id: 5,
+        date: "2025-10-13",
+        title: `Selected as a National Scholarship Recipient for Science and Engineering`,
+        content: `Seunghun Park has been selected as a recipient of the National Science and Engineering Scholarship, a prestigious government-funded scholarship program supported by the Korea Student Aid Foundation. The program aims to foster outstanding students in science and engineering and nurture them as future leaders in science and technology. It provides financial support to academically excellent students to help them focus on their studies and research while contributing to the advancement of national scientific competitiveness.`,
+        image: "/images/news 5.jpg"
+    },
+    {
         id: 2,
         date: "2025-09-10",
         title: `Awarded <span class="font-bold text-blue-900">"First Prize"</span> at 「KNU BATTERY DAY」`,
