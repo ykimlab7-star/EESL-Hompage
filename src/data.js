@@ -952,7 +952,7 @@ export const newsData = [
         date: "2026-02-20",
         title: `President’s Award for Outstanding Academic Research`,
         content: `Boseong Heo has received the President’s Award for Outstanding Academic Research in recognition of outstanding academic performance and research excellence. The award honors students who demonstrate exceptional dedication to scholarly activities and contributions to academic advancement. This achievement reflects a strong commitment to innovative research and academic excellence.`,
-        image: "/images/news 3.jpg"
+        image: "/images/news 4.jpg"
     },
     {
         id: 3,
