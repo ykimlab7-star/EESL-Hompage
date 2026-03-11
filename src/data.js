@@ -949,7 +949,7 @@ export const newsData = [
     {
         id: 5,
         date: "2026-02-20",
-        title: `University President’s Award for Outstanding Academic Research`,
+        title: `<strong class="font-bold text-blue-900">University President’s Award </span> for Outstanding Academic Research`,
         content: `Boseong Heo has received the President’s Award for Outstanding Academic Research in recognition of outstanding academic performance and research excellence. The award honors students who demonstrate exceptional dedication to scholarly activities and contributions to academic advancement. This achievement reflects a strong commitment to innovative research and academic excellence.`,
         image: "/images/news 4.jpg"
     },
@@ -965,7 +965,7 @@ The study, titled "<span class="italic font-medium">Interfacial Stability Enhanc
     {
         id: 3,
         date: "2025-10-13",
-        title: `Selected as a National Scholarship Recipient for Science and Engineering`,
+        title: `Selected as a <strong class="font-bold text-blue-900">National Scholarship </span> Recipient for Science and Engineering`,
         content: `Seunghun Park has been selected as a recipient of the National Science and Engineering Scholarship, a prestigious government-funded scholarship program supported by the Korea Student Aid Foundation. The program aims to foster outstanding students in science and engineering and nurture them as future leaders in science and technology. It provides financial support to academically excellent students to help them focus on their studies and research while contributing to the advancement of national scientific competitiveness.`,
         image: "/images/news 5.jpg"
     },
