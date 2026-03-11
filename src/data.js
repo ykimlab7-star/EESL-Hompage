@@ -947,14 +947,14 @@ export const galleryData = [
 
 export const newsData = [
     {
-        id: 4,
+        id: 5,
         date: "2026-02-20",
         title: `University President’s Award for Outstanding Academic Research`,
         content: `Boseong Heo has received the President’s Award for Outstanding Academic Research in recognition of outstanding academic performance and research excellence. The award honors students who demonstrate exceptional dedication to scholarly activities and contributions to academic advancement. This achievement reflects a strong commitment to innovative research and academic excellence.`,
         image: "/images/news 4.jpg"
     },
     {
-        id: 3,
+        id: 4,
         date: "2025-10-28",
         title: `Research paper published in <em class="font-bold text-blue-900 not-italic">「Materials Today」</em>`,
         content: `Professor <span class="font-semibold text-gray-900">Young-Jin Kim</span> and student <span class="font-semibold text-gray-900">Bo-Seong Heo</span> have published their research paper in the prestigious international journal, <em class="font-bold text-blue-800">Materials Today</em>.
@@ -963,7 +963,7 @@ The study, titled "<span class="italic font-medium">Interfacial Stability Enhanc
         image: "/images/news 1.jpg" // 이미지 경로를 여기에 추가하세요!
     },
     {
-        id: 5,
+        id: 3,
         date: "2025-10-13",
         title: `Selected as a National Scholarship Recipient for Science and Engineering`,
         content: `Seunghun Park has been selected as a recipient of the National Science and Engineering Scholarship, a prestigious government-funded scholarship program supported by the Korea Student Aid Foundation. The program aims to foster outstanding students in science and engineering and nurture them as future leaders in science and technology. It provides financial support to academically excellent students to help them focus on their studies and research while contributing to the advancement of national scientific competitiveness.`,
