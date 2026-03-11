@@ -19,7 +19,6 @@ export const membersData = {
             `<strong>B.S.</strong> in Chemical Engineering, <strong>Seoul National University of Science and Technology</strong> (Mar. 2003 - Feb. 2010)`
         ],
         awards: [
-            "<strong>Technology Transfer</strong> (2017) to <strong>LG Chem. ($80k)</strong>",
             "<strong>ACS 2017 SciFinder Future Leaders in Chemistry</strong> (2017) from <strong>American Chemical Society (ACS)</strong>",
             "<strong>Post-doctoral Fellowship</strong> (2016-2017) from <strong>National Research Foundation of Korea</strong>",
             "<strong>Best Poster Award</strong> (2013) from <strong>Korea Electrochemical Society</strong>",
@@ -950,7 +949,7 @@ export const newsData = [
     {
         id: 4,
         date: "2026-02-20",
-        title: `President’s Award for Outstanding Academic Research`,
+        title: `University President’s Award for Outstanding Academic Research`,
         content: `Boseong Heo has received the President’s Award for Outstanding Academic Research in recognition of outstanding academic performance and research excellence. The award honors students who demonstrate exceptional dedication to scholarly activities and contributions to academic advancement. This achievement reflects a strong commitment to innovative research and academic excellence.`,
         image: "/images/news 4.jpg"
     },
