@@ -19,7 +19,6 @@ export const membersData = {
             `<strong>B.S.</strong> in Chemical Engineering, <strong>Seoul National University of Science and Technology</strong> (Mar. 2003 - Feb. 2010)`
         ],
         awards: [
-            "<strong>Technology Transfer</strong> (2017) to <strong>LG Chem. ($80k)</strong>",
             "<strong>ACS 2017 SciFinder Future Leaders in Chemistry</strong> (2017) from <strong>American Chemical Society (ACS)</strong>",
             "<strong>Post-doctoral Fellowship</strong> (2016-2017) from <strong>National Research Foundation of Korea</strong>",
             "<strong>Best Poster Award</strong> (2013) from <strong>Korea Electrochemical Society</strong>",
@@ -942,29 +941,33 @@ export const galleryData = [
             "/images/gallery-graduation-2026-3.jpg",
             "/images/gallery-graduation-2026-4.jpg"
         ]
-    },
-    {
-        id: 34,
-        title: "2026 Inter Battery (03/13)",
-        date: "2026.03",
-        description: "",
-        thumbnail: "/images/gallery-interbattery-2026-1.jpg",
-        images: [
-            "/images/gallery-interbattery-2026-1.jpg"
-        ]
     }
     // Add more gallery items
 ];
 
 export const newsData = [
     {
-        id: 3,
+        id: 5,
+        date: "2026-02-20",
+        title: `<span class="font-bold text-blue-900">University President’s Award</span> for Outstanding Academic Research`,
+        content: `Boseong Heo has received the President’s Award for Outstanding Academic Research in recognition of outstanding academic performance and research excellence. The award honors students who demonstrate exceptional dedication to scholarly activities and contributions to academic advancement. This achievement reflects a strong commitment to innovative research and academic excellence.`,
+        image: "/images/news 4.jpg"
+    },
+    {
+        id: 4,
         date: "2025-10-28",
         title: `Research paper published in <em class="font-bold text-blue-900 not-italic">「Materials Today」</em>`,
         content: `Professor <span class="font-semibold text-gray-900">Young-Jin Kim</span> and student <span class="font-semibold text-gray-900">Bo-Seong Heo</span> have published their research paper in the prestigious international journal, <em class="font-bold text-blue-800">Materials Today</em>.
 
 The study, titled "<span class="italic font-medium">Interfacial Stability Enhancement in Single-Crystal NCM Cathodes through Electronic Structure Optimization</span>," identifies the core mechanism for ensuring the stability of single-crystal mid-nickel cathode materials in lithium-ion batteries under high-voltage conditions.`,
         image: "/images/news 1.jpg" // 이미지 경로를 여기에 추가하세요!
+    },
+    {
+        id: 3,
+        date: "2025-10-13",
+        title: `Selected as a <span class="font-bold text-blue-900">National Scholarship </span> Recipient for Science and Engineering`,
+        content: `Seunghun Park has been selected as a recipient of the National Science and Engineering Scholarship, a prestigious government-funded scholarship program supported by the Korea Student Aid Foundation. The program aims to foster outstanding students in science and engineering and nurture them as future leaders in science and technology. It provides financial support to academically excellent students to help them focus on their studies and research while contributing to the advancement of national scientific competitiveness.`,
+        image: "/images/news 5.jpg"
     },
     {
         id: 2,
