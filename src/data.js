@@ -952,6 +952,18 @@ export const galleryData = [
         images: [
             "/images/gallery-interbattery-2026-1.jpg"
         ]
+    },
+    {
+        id: 35,
+        title: "현대차 정몽구 스칼라십 2026 신규장학생 모집 설명회",
+        date: "2026.04",
+        description: "'현대차 장학생 석사과정 서하진'",
+        thumbnail: "/images/gallery-hyundai-scholarship-2026-1.jpg",
+        images: [
+            "/images/gallery-hyundai-scholarship-2026-1.jpg",
+            "/images/gallery-hyundai-scholarship-2026-2.jpg",
+            "/images/gallery-hyundai-scholarship-2026-3.jpg"
+        ]
     }
     // Add more gallery items
 ];
