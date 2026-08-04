@@ -55,7 +55,7 @@ const NewsDetail = () => {
                         <div className="rounded-lg overflow-hidden border border-slate-100 bg-slate-50 shadow-sm">
                             <img
                                 src={news.image}
-                                alt={news.title}
+                                alt={news.title.replace(/<[^>]+>/g, '')}
                                 className="w-full h-auto object-cover max-h-[600px]"
                                 onError={(e) => {
                                     e.target.style.display = 'none';
@@ -79,11 +79,6 @@ const NewsDetail = () => {
                 {/* Footer Line */}
                 <div className="mt-16 pt-8 border-t border-slate-200 flex justify-between items-center">
                     <span className="text-slate-500 text-sm">Electrochemical Energy Storage Laboratory</span>
-                    <div className="flex gap-4">
-                        {/* Placeholder for sharing icons */}
-                        <div className="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center cursor-pointer transition-colors text-slate-500 font-bold text-xs" title="Share on LinkedIn">in</div>
-                        <div className="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center cursor-pointer transition-colors text-slate-500 font-bold text-xs" title="Share on Twitter">X</div>
-                    </div>
                 </div>
             </article>
         </div>

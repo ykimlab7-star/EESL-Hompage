@@ -7,9 +7,9 @@ const News = () => {
         <div className="pt-24 min-h-screen bg-white">
             <div className="text-white py-16 mb-12" style={{ backgroundColor: '#1e3a5f' }}>
                 <div className="max-w-6xl mx-auto px-6">
-                    <a href="/news" className="inline-block hover:opacity-80 transition-opacity">
+                    <Link to="/news" className="inline-block hover:opacity-80 transition-opacity">
                         <h1 className="text-4xl md:text-5xl font-bold mb-4 cursor-pointer">News</h1>
-                    </a>
+                    </Link>
                     <p className="text-blue-100 text-xl">Latest updates and announcements.</p>
                 </div>
             </div>
@@ -18,7 +18,7 @@ const News = () => {
                 <div className="flex flex-col gap-0 border-b border-gray-100 border-t mt-4">
                     {newsData.map((news) => (
                         <Link to={`/news/${news.id}`} key={news.id} className="py-10 hover:bg-slate-50 transition-colors flex gap-6 md:gap-8 items-start border-b border-gray-100 last:border-0 group">
-                            {/* Left Side: Numbering or Icon Placeholder */}
+                            {/* Left Side: Numbering */}
                             <div className="hidden md:flex flex-col items-center justify-start shrink-0 w-8 text-gray-400 font-bold text-lg pt-1">
                                 <span>{news.id}</span>
                             </div>

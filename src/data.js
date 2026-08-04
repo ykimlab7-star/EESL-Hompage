@@ -8,29 +8,39 @@ export const membersData = {
         office: "Engineering Building 2, Room 218",
         phone: "033-250-6261",
         image: "/images/professor.png", // Changed to .png as per file existence
-        experience: [
-            "<strong>Assistant professor</strong>, Department of Battery Convergence Engineering, <strong>Kangwon National University</strong> (Sep. 2022 – current)",
-            "<strong>Senior Researcher</strong>, <strong>Research Institute of Industrial Science and Technology (RIST)</strong> (Aug. 2021 – Aug. 2022)",
-            "<strong>Post. Doc.</strong> in Mechanical Engineering, <strong>University of Texas at Austin</strong> (Jul. 2017 – Jun. 2021, Supervisor: Prof. Arumugam Manthiram)",
-            "<strong>Post. Doc.</strong> in Chemical and Biological Engineering, <strong>Seoul National University</strong> (Mar. 2016 – Jun. 2017, Supervisor: Prof. Kyu Tae Lee)"
-        ],
         education: [
-            `<strong>Ph.D.</strong> in Chemical and Biological Engineering, <strong>Seoul National University</strong> (Sep. 2010 – Feb. 2016)<br/><span class="block mt-4 mb-3"><strong>Thesis:</strong> Phosphorus-based High-capacity Negative Electrode Materials for Sodium-ion Battery</span><span class="block"><strong>Supervisor:</strong> Prof. Seung Mo Oh</span>`,
-            `<strong>B.S.</strong> in Chemical Engineering, <strong>Seoul National University of Science and Technology</strong> (Mar. 2003 - Feb. 2010)`
+            "Ph.D. in Chemical and Biological Engineering, Seoul National University (2010 – 2016)",
+            "B.S. in Chemical Engineering, Seoul National University of Science and Technology (2003 – 2010)"
         ],
-        awards: [
-            "<strong>Technology Transfer</strong> (2017) to <strong>LG Chem. ($80k)</strong>",
-            "<strong>ACS 2017 SciFinder Future Leaders in Chemistry</strong> (2017) from <strong>American Chemical Society (ACS)</strong>",
-            "<strong>Post-doctoral Fellowship</strong> (2016-2017) from <strong>National Research Foundation of Korea</strong>",
-            "<strong>Best Poster Award</strong> (2013) from <strong>Korea Electrochemical Society</strong>",
-            "<strong>Minister’s Award</strong> (2009) in Green Energy Contest from <strong>Ministry of Education, Science and Technology, Korea</strong>"
+        experience: [
+            "Assistant Professor, Kangwon National University (Sep. 2022 – Present)",
+            "Senior Researcher, RIST (Aug. 2021 – Aug. 2022)",
+            "Post. Doc., University of Texas at Austin (Jul. 2017 – Jun. 2021)",
+            "Post. Doc., Seoul National University (Mar. 2016 – Jun. 2017)"
         ]
     },
     graduateStudents: [
         {
+            id: "g1",
+            name: "Sieun Choi",
+            degree: "Master student",
+            research: "LFP,LMFP cathode material",
+            email: "tldmsct7@naver.com",
+            image: "/images/Sieun Choi.png"
+        },
+        {
+            id: "g2",
+            name: "Boseong Heo",
+            degree: "Combined BS/MS student",
+            research: "layered structure cathode material",
+            email: "gahbskib@naver.com",
+            image: "/images/Boseong Heo.png"
+        },
+        {
             id: "g3",
             name: "Sangbeom Kim",
             degree: "Combined BS/MS student",
+            research: "layered structure cathode material",
             email: "sangbum1127@naver.com",
             image: "/images/Sangbeom Kim.png"
         },
@@ -38,6 +48,7 @@ export const membersData = {
             id: "g4",
             name: "Seonho Kim",
             degree: "Combined BS/MS student",
+            research: "layered structure cathode material",
             email: "tjsgh0928@naver.com",
             image: "/images/Seonho Kim.png"
         },
@@ -45,6 +56,7 @@ export const membersData = {
             id: "g5",
             name: "Sanghyeok Moon",
             degree: "Master student",
+            research: "layered structure cathode material",
             email: "q7634407@naver.com",
             image: "/images/Sanghyeok Moon.png"
         },
@@ -52,6 +64,7 @@ export const membersData = {
             id: "g6",
             name: "Seungjun Baek",
             degree: "Combined BS/MS student",
+            research: "layered structure cathode material",
             email: "nanim0115@naver.com",
             image: "/images/Seungjun Baek.png"
         },
@@ -59,6 +72,7 @@ export const membersData = {
             id: "g7",
             name: "Hajin Seo",
             degree: "Master student",
+            research: "layered structure cathode material",
             email: "seohajin@naver.com",
             image: "/images/Hajin Seo.png"
         },
@@ -66,6 +80,7 @@ export const membersData = {
             id: "g8",
             name: "Jungbeen Choi",
             degree: "Master student",
+            research: "layered structure cathode material",
             email: "chlwjdqls13@naver.com",
             image: "/images/Jungbeen Choi.png"
         },
@@ -73,6 +88,7 @@ export const membersData = {
             id: "g9",
             name: "Sanghyun Lee",
             degree: "Master student",
+            research: "layered structure cathode material",
             email: "lapis0621@daum.net",
             image: "/images/Sanghyun Lee.png"
         },
@@ -123,21 +139,7 @@ export const membersData = {
     ],
     alumni: [
         {
-            id: "al 4",
-            name: "Sieun Choi",
-            degree: "Master's degree",
-            "graduate date": "2026.02",
-            image: "/images/Sieun Choi.png"
-        },
-        {
-            id: "al 3",
-            name: "Boseong Heo",
-            degree: "Master's degree",
-            "graduate date": "2026.02",
-            image: "/images/Boseong Heo.png"
-        },
-        {
-            id: "al 2",
+            id: "al 1",
             name: "Inhye Kim",
             degree: "Master's degree",
             "graduate date": "2025.02",
@@ -145,7 +147,7 @@ export const membersData = {
             image: "/images/Inhye Kim.jpg"
         },
         {
-            id: "al 1",
+            id: "al 2",
             name: "Junhee Cho",
             degree: "Bachelor's degree",
             "graduate date": "2025.02",
@@ -157,14 +159,6 @@ export const membersData = {
 };
 
 export const publications = [
-    {
-        id: 51,
-        title: "In Situ Synchrotron Characterization of Layered Oxide Cathodes for Lithium-Ion Batteries: Bridging Synthesis, Operation, and Thermal Stability",
-        authors: "Sangbeom Kim, Joon Ha Chang, Beom Tak Na, Sanghyeok Moon, Seonho Kim, Seungjun Baek, Jeong-Mi Yeon, Yu-Jin Kim, Hyun-seung Kim, Min Wook Pin, Youngjin Kim*",
-        journal: "Chem. Mater.",
-        year: 2026,
-        doi: "10.1021/acs.chemmater.5c02925"
-    },
     {
         id: 50,
         title: "Concentration-optimized boron surface modification for single-crystal high-nickel cathode stabilization",
@@ -572,411 +566,40 @@ export const publications = [
 export const galleryData = [
     {
         id: 1,
-        title: "EESL 첫 단체 사진",
-        date: "2023.03",
-        description: "EESL 연구실의 첫 번째 단체 사진입니다.",
-        thumbnail: "/images/gallery-first-group-lab.jpg",
-        images: [
-            "/images/gallery-first-group-lab.jpg",
-            "/images/gallery-first-group.jpg"
-        ]
+        title: "Lab Group Photo",
+        image: "/images/gallery1.jpg"
     },
     {
         id: 2,
-        title: "EESL 회식",
-        date: "2023.03",
-        description: "",
-        thumbnail: "/images/gallery-hoesik-1.jpg",
-        images: [
-            "/images/gallery-hoesik-1.jpg",
-            "/images/gallery-hoesik-2.jpg",
-            "/images/gallery-hoesik-3.jpg"
-        ]
-    },
-    {
-        id: 3,
-        title: "EESL 산낙지 섭외 완료",
-        date: "2023.05",
-        description: "",
-        thumbnail: "/images/gallery-nakji-1.jpg",
-        images: [
-            "/images/gallery-nakji-1.jpg"
-        ]
-    },
-    {
-        id: 4,
-        title: "교수님과 함께하는 세미나",
-        date: "2023.05",
-        description: "",
-        thumbnail: "/images/gallery-seminar-1.jpg",
-        images: [
-            "/images/gallery-seminar-1.jpg"
-        ]
-    },
-    {
-        id: 5,
-        title: "2023 스승의 날",
-        date: "2023.05",
-        description: "",
-        thumbnail: "/images/gallery-teachers-day-1.jpg",
-        images: [
-            "/images/gallery-teachers-day-1.jpg"
-        ]
-    },
-    {
-        id: 6,
-        title: "EESL 단체 야구 경기 관람",
-        date: "2023.07",
-        description: "",
-        thumbnail: "/images/gallery-baseball-1.jpg",
-        images: [
-            "/images/gallery-baseball-1.jpg",
-            "/images/gallery-baseball-2.jpg"
-        ]
-    },
-    {
-        id: 7,
-        title: "독일 잘 다녀와",
-        date: "2023.07",
-        description: "",
-        thumbnail: "/images/gallery-germany-1.jpg",
-        images: [
-            "/images/gallery-germany-1.jpg"
-        ]
-    },
-    {
-        id: 8,
-        title: "기업 연계 연구 프로젝트 참여 - 독일",
-        date: "2023.07",
-        description: "",
-        thumbnail: "/images/gallery-germany-project-1.png",
-        images: [
-            "/images/gallery-germany-project-1.png"
-        ]
-    },
-    {
-        id: 9,
-        title: "2023 하계 MT - 포항",
-        date: "2023.08",
-        description: "",
-        thumbnail: "/images/gallery-2023-mt-1.jpg",
-        images: [
-            "/images/gallery-2023-mt-1.jpg",
-            "/images/gallery-2023-mt-2.jpg",
-            "/images/gallery-2023-mt-3.jpg",
-            "/images/gallery-2023-mt-4.jpg",
-            "/images/gallery-2023-mt-5.jpg",
-            "/images/gallery-2023-mt-6.jpg",
-            "/images/gallery-2023-mt-7.jpg",
-            "/images/gallery-2023-mt-8.jpg"
-        ]
-    },
-    {
-        id: 10,
-        title: "두근두근 coin cell 실험",
-        date: "2023.08",
-        description: "",
-        thumbnail: "/images/gallery-coincell-1.png",
-        images: [
-            "/images/gallery-coincell-1.png",
-            "/images/gallery-coincell-2.png",
-            "/images/gallery-coincell-3.png"
-        ]
-    },
-    {
-        id: 11,
-        title: "2023 백향제 축구 준우승 '문상혁'",
-        date: "2023.10",
-        description: "",
-        thumbnail: "/images/gallery-soccer-1.png",
-        images: [
-            "/images/gallery-soccer-1.png"
-        ]
-    },
-    {
-        id: 12,
-        title: "2023국가우수(이공계) 장학생 '김선호'",
-        date: "2023.11",
-        description: "",
-        thumbnail: "/images/gallery-scholarship-1.jpg",
-        images: [
-            "/images/gallery-scholarship-1.jpg"
-        ]
-    },
-    {
-        id: 13,
-        title: "2023 누들브리지 경연대회 금상 '김상범'",
-        date: "2023.11",
-        description: "",
-        thumbnail: "/images/gallery-noodle-1.jpg",
-        images: [
-            "/images/gallery-noodle-1.jpg"
-        ]
-    },
-    {
-        id: 14,
-        title: "화목한 EESL",
-        date: "2023.12",
-        description: "",
-        thumbnail: "/images/gallery-eesl-2023-1.jpg",
-        images: [
-            "/images/gallery-eesl-2023-1.jpg"
-        ]
-    },
-    {
-        id: 15,
-        title: "2023 EESL 송년회☺️",
-        date: "2023.12",
-        description: "",
-        thumbnail: "/images/gallery-yearend-2023-1.jpg",
-        images: [
-            "/images/gallery-yearend-2023-1.jpg"
-        ]
-    },
-    {
-        id: 16,
-        title: "The Future of Secondary Battery Technology",
-        date: "2024.01",
-        description: "Arumugam Manthiram & Ykim",
-        thumbnail: "/images/gallery-battery-symposium-1.jpg",
-        images: [
-            "/images/gallery-battery-symposium-1.jpg"
-        ]
-    },
-    {
-        id: 17,
-        title: "2024 New EESL Assemble",
-        date: "2024.01",
-        description: "",
-        thumbnail: "/images/gallery-eesl-assemble-1.jpg",
-        images: [
-            "/images/gallery-eesl-assemble-1.jpg"
-        ]
-    },
-    {
-        id: 18,
-        title: "2024 동계 MT - 양양 (2/5 ~ 2/7)",
-        date: "2024.02",
-        description: "",
-        thumbnail: "/images/gallery-2024-mt-1.jpg",
-        images: [
-            "/images/gallery-2024-mt-1.jpg",
-            "/images/gallery-2024-mt-2.jpg",
-            "/images/gallery-2024-mt-3.jpg",
-            "/images/gallery-2024-mt-4.jpg",
-            "/images/gallery-2024-mt-5.jpg"
-        ]
-    },
-    {
-        id: 19,
-        title: "학부 졸업 '최시은'",
-        date: "2024.02",
-        description: "",
-        thumbnail: "/images/gallery-graduation-sieun-1.jpg",
-        images: [
-            "/images/gallery-graduation-sieun-1.jpg",
-            "/images/gallery-graduation-sieun-2.jpg",
-            "/images/gallery-graduation-sieun-3.jpg"
-        ]
-    },
-    {
-        id: 20,
-        title: "행복한 EESL",
-        date: "2024.04",
-        description: "",
-        thumbnail: "/images/gallery-happy-eesl-1.jpg",
-        images: [
-            "/images/gallery-happy-eesl-1.jpg"
-        ]
-    },
-    {
-        id: 21,
-        title: "2024 춘계 전기화학회",
-        date: "2024.04",
-        description: "",
-        thumbnail: "/images/gallery-electrochemistry-2024-1.jpg",
-        images: [
-            "/images/gallery-electrochemistry-2024-1.jpg",
-            "/images/gallery-electrochemistry-2024-2.jpg"
-        ]
-    },
-    {
-        id: 22,
-        title: "교수님 생신축하드려요 🥳😍🎉",
-        date: "2024.04",
-        description: "",
-        thumbnailContain: true,
-        thumbnail: "/images/gallery-birthday-prof-1.jpg",
-        images: [
-            "/images/gallery-birthday-prof-1.jpg"
-        ]
-    },
-    {
-        id: 23,
-        title: "2024 하계 MT - 강릉 (08/12~08/14) 🏊",
-        date: "2024.08",
-        description: "",
-        thumbnail: "/images/gallery-2024-summer-mt-1.png",
-        images: [
-            "/images/gallery-2024-summer-mt-1.png",
-            "/images/gallery-2024-summer-mt-2.png",
-            "/images/gallery-2024-summer-mt-3.png",
-            "/images/gallery-2024-summer-mt-4.png",
-            "/images/gallery-2024-summer-mt-5.png"
-        ]
-    },
-    {
-        id: 24,
-        title: "2024 K-BATTERY SHOW (09/26)",
-        date: "2024.09",
-        description: "",
-        thumbnail: "/images/gallery-kbattery-2024-1.png",
-        images: [
-            "/images/gallery-kbattery-2024-1.png",
-            "/images/gallery-kbattery-2024-2.png",
-            "/images/gallery-kbattery-2024-3.png"
-        ]
-    },
-    {
-        id: 25,
-        title: "2024 연말 PARTY (11/22)",
-        date: "2024.11",
-        description: "",
-        thumbnail: "/images/gallery-yearend-party-2024-1.png",
-        images: [
-            "/images/gallery-yearend-party-2024-1.png",
-            "/images/gallery-yearend-party-2024-2.png",
-            "/images/gallery-yearend-party-2024-3.png",
-            "/images/gallery-yearend-party-2024-4.png"
-        ]
-    },
-    {
-        id: 26,
-        title: "축 졸업🎉 '김인혜, 조준희'",
-        date: "2025.02",
-        description: "",
-        thumbnail: "/images/gallery-graduation-2025-1.png",
-        images: [
-            "/images/gallery-graduation-2025-1.png",
-            "/images/gallery-graduation-2025-2.png"
-        ]
-    },
-    {
-        id: 27,
-        title: "2025 미래 세대의 리더, 용기의 사나이 '서하진'",
-        date: "2025.02",
-        description: "현대자동차 정몽구 재단 장학생",
-        thumbnail: "/images/gallery-hyundai-scholarship-1.png",
-        images: [
-            "/images/gallery-hyundai-scholarship-1.png"
-        ]
-    },
-    {
-        id: 28,
-        title: "EESL 1기 학부 졸업식",
-        date: "2025.02",
-        description: "",
-        thumbnail: "/images/gallery-eesl-graduation-1st-1.png",
-        images: [
-            "/images/gallery-eesl-graduation-1st-1.png",
-            "/images/gallery-eesl-graduation-1st-2.png"
-        ]
-    },
-    {
-        id: 29,
-        title: "2025 Inter Battery (03/07)",
-        date: "2025.03",
-        description: "",
-        thumbnail: "/images/gallery-interbattery-2025-1.png",
-        images: [
-            "/images/gallery-interbattery-2025-1.png",
-            "/images/gallery-interbattery-2025-2.png",
-            "/images/gallery-interbattery-2025-3.png"
-        ]
-    },
-    {
-        id: 30,
-        title: "🎉교수님 생신🎉(04/23)",
-        date: "2025.04",
-        description: "",
-        thumbnail: "/images/gallery-birthday-prof-2025-1.png",
-        images: [
-            "/images/gallery-birthday-prof-2025-1.png"
-        ]
-    },
-    {
-        id: 31,
-        title: "2025 하계 워크숍 - 양양 (08/11 ~ 08/12)",
-        date: "2025.08",
-        description: "",
-        thumbnail: "/images/gallery-2025-summer-workshop-1.png",
-        images: [
-            "/images/gallery-2025-summer-workshop-1.png",
-            "/images/gallery-2025-summer-workshop-2.png",
-            "/images/gallery-2025-summer-workshop-3.png"
-        ]
-    },
-    {
-        id: 32,
-        title: "2025 한국전기화학회 (11/19 ~ 11/21)",
-        date: "2025.11",
-        description: "",
-        thumbnail: "/images/gallery-kes-2025-1.png",
-        images: [
-            "/images/gallery-kes-2025-1.png",
-            "/images/gallery-kes-2025-2.png",
-            "/images/gallery-kes-2025-3.png",
-            "/images/gallery-kes-2025-4.png"
-        ]
-    },
-    {
-        id: 33,
-        title: "EESL 축 졸업🎉",
-        date: "2026.02",
-        description: "'석사 최시은, 허보성'",
-        description2: "'학부 이상현, 최정빈, 서하진, 백승준'",
-        thumbnail: "/images/gallery-graduation-2026-1.jpg",
-        images: [
-            "/images/gallery-graduation-2026-1.jpg",
-            "/images/gallery-graduation-2026-2.jpg",
-            "/images/gallery-graduation-2026-3.jpg",
-            "/images/gallery-graduation-2026-4.jpg"
-        ]
-    },
-    {
-        id: 34,
-        title: "2026 Inter Battery (03/13)",
-        date: "2026.03",
-        description: "",
-        thumbnail: "/images/gallery-interbattery-2026-1.jpg",
-        images: [
-            "/images/gallery-interbattery-2026-1.jpg"
-        ]
-    },
-    {
-        id: 35,
-        title: "현대차 정몽구 스칼라십 2026 신규장학생 모집 설명회",
-        date: "2026.04",
-        description: "'현대차 장학생 석사과정 서하진'",
-        thumbnail: "/images/gallery-hyundai-scholarship-2026-1.jpg",
-        images: [
-            "/images/gallery-hyundai-scholarship-2026-1.jpg",
-            "/images/gallery-hyundai-scholarship-2026-2.jpg",
-            "/images/gallery-hyundai-scholarship-2026-3.jpg"
-        ]
+        title: "Research Activity",
+        image: "/images/gallery2.jpg"
     }
     // Add more gallery items
 ];
 
 export const newsData = [
     {
-        id: 3,
+        id: 5,
+        date: "2026-02-20",
+        title: `<span class="font-bold text-blue-900">University President’s Award</span> for Outstanding Academic Research`,
+        content: `Boseong Heo has received the President’s Award for Outstanding Academic Research in recognition of outstanding academic performance and research excellence. The award honors students who demonstrate exceptional dedication to scholarly activities and contributions to academic advancement. This achievement reflects a strong commitment to innovative research and academic excellence.`,
+        image: "/images/news 4.jpg"
+    },
+    {
+        id: 4,
         date: "2025-10-28",
         title: `Research paper published in <em class="font-bold text-blue-900 not-italic">「Materials Today」</em>`,
         content: `Professor <span class="font-semibold text-gray-900">Young-Jin Kim</span> and student <span class="font-semibold text-gray-900">Bo-Seong Heo</span> have published their research paper in the prestigious international journal, <em class="font-bold text-blue-800">Materials Today</em>.
 
 The study, titled "<span class="italic font-medium">Interfacial Stability Enhancement in Single-Crystal NCM Cathodes through Electronic Structure Optimization</span>," identifies the core mechanism for ensuring the stability of single-crystal mid-nickel cathode materials in lithium-ion batteries under high-voltage conditions.`,
-        image: "/images/news 1.jpg" // 이미지 경로를 여기에 추가하세요!
+        image: "/images/news 1.jpg"
+    },
+    {
+        id: 3,
+        date: "2025-10-13",
+        title: `Selected as a <span class="font-bold text-blue-900">National Scholarship </span> Recipient for Science and Engineering`,
+        content: `Seunghun Park has been selected as a recipient of the National Science and Engineering Scholarship, a prestigious government-funded scholarship program supported by the Korea Student Aid Foundation. The program aims to foster outstanding students in science and engineering and nurture them as future leaders in science and technology. It provides financial support to academically excellent students to help them focus on their studies and research while contributing to the advancement of national scientific competitiveness.`,
+        image: "/images/news 5.jpg"
     },
     {
         id: 2,
@@ -985,7 +608,7 @@ The study, titled "<span class="italic font-medium">Interfacial Stability Enhanc
         content: `At the 「KNU BATTERY DAY」, a premier event bringing together the next generation of leaders in energy technology, <span class="font-bold text-gray-900">Si-eun Choi</span> was honored with the First Prize in recognition of her outstanding research achievements.In this study, <span class="font-bold text-gray-900">Choi</span> achieved a significant breakthrough by introducing a specialized primer coating layer onto the aluminum current collector. This innovation drastically improved both the electrical conductivity and electrochemical safety of NVP (Sodium Vanadium Phosphate), a material widely regarded as a promising candidate for next-generation cathodes.
 
 While NVP cathodes are known for their high operating voltage and structural stability, their low electronic conductivity has long been a major hurdle for practical commercialization. By implementing a coating technology that lowers the interfacial resistance between the current collector and the cathode material, <span class="font-bold text-gray-900">Choi</span> successfully enhanced battery efficiency and demonstrated stable performance even under high-power conditions.`,
-        image: "/images/news 3.jpg" // 사진이 없다면 이 줄을 지우시거나 비워두세요.
+        image: "/images/news 3.jpg"
     },
     {
         id: 1,
@@ -1004,53 +627,3 @@ export const contactData = {
     email: "ykim@kangwon.ac.kr",
     phone: "033-250-6261"
 };
-
-export const researchData = [
-    {
-        id: 1,
-        title: "Mechanism Study on NCM, NCA, LMR, and Co-Free Cathodes",
-        description: "Elucidating fundamental degradation and interfacial mechanisms in advanced layered oxide cathodes to enable stable, high-voltage, and cobalt-free energy storage systems.",
-        content: `
-            <p class="mb-4">Our research focuses on understanding the fundamental degradation mechanisms of high-nickel layered oxide cathodes (NCM/NCA), Li-rich materials (LMR), and Co-free systems.</p>
-            <ul class="list-disc list-inside mb-4 space-y-2">
-                <li>Systematic investigation of residual lithium, surface reconstruction (layered → spinel/rock-salt), and interfacial side reactions under practical operating conditions.</li>
-                <li>Kinetic and thermodynamic analysis of structural evolution, cation mixing, oxygen activity, and phase transitions in high-Ni and Co-free cathodes.</li>
-                <li>Surface/interface engineering strategies, including controlled surface modification and reconstruction design, to convert detrimental surface phases into stabilizing interphases.</li>
-                <li>Process–structure–performance correlations linking electrode fabrication, microstructure, and electrochemical stability for long-cycle, high-voltage operation.</li>
-            </ul>
-        `,
-        color: "bg-gray-50",
-        image: "/images/research-1.png"
-    },
-    {
-        id: 2,
-        title: "High-Energy-Density Electrode Materials for Na-Ion Batteries",
-        description: "Designing high-capacity sodium-ion electrode materials and interfacial chemistries to achieve durable and scalable next-generation energy storage.",
-        content: `
-            <p class="mb-4">We develop advanced electrode materials and interfacial chemistries to enable high-energy and durable sodium-ion batteries.</p>
-            <ul class="list-disc list-inside mb-4 space-y-2">
-                <li>Design of alloy-, conversion-, and carbon-based high-capacity anodes (e.g., Sn-, P-, and selenide-based systems) with controlled matrix architectures.</li>
-                <li>Engineering of homogeneous active-material distribution and reaction pathways to improve reversibility and structural stability.</li>
-                <li>Mechanistic understanding of sodiation/desodiation processes using in situ/operando characterization.</li>
-                <li>Electrolyte innovation, including localized high-concentration electrolytes (LHCEs), to enhance interfacial stability and suppress parasitic reactions.</li>
-            </ul>
-        `,
-        color: "bg-white",
-        image: "/images/research-2.png"
-    },
-    {
-        id: 3,
-        title: "2D Protection Layers for Li Metal Anodes",
-        description: "Engineering two-dimensional protective interphases to stabilize lithium metal anodes and suppress dendrite growth for high-energy batteries.",
-        content: `
-            <p class="mb-4">We explore two-dimensional (2D) material-based interfacial engineering to stabilize lithium metal anodes.</p>
-            <ul class="list-disc list-inside mb-4 space-y-2">
-                <li>Development of 2D-derived protective layers (e.g., phosphorene-based systems) to regulate Li-ion flux and suppress dendrite growth.</li>
-                <li>Construction of chemically and mechanically robust interphases that mitigate electrolyte decomposition.</li>
-                <li>Integration of artificial interphases that function not merely as passive barriers, but as electrochemically active and ion-conductive protection layers.</li>
-            </ul>
-        `,
-        color: "bg-gray-50",
-        image: "/images/research-3.png"
-    }
-];
