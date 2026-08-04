@@ -627,3 +627,54 @@ export const contactData = {
     email: "ykim@kangwon.ac.kr",
     phone: "033-250-6261"
 };
+
+export const researchData = [
+    {
+        id: 1,
+        title: "Mechanism Study on NCM, NCA, LMR, and Co-Free Cathodes",
+        description: "Elucidating fundamental degradation and interfacial mechanisms in advanced layered oxide cathodes to enable stable, high-voltage, and cobalt-free energy storage systems.",
+        content: `
+            <p class="mb-4">Our research focuses on understanding the fundamental degradation mechanisms of high-nickel layered oxide cathodes (NCM/NCA), Li-rich materials (LMR), and Co-free systems.</p>
+            <ul class="list-disc list-inside mb-4 space-y-2">
+                <li>Systematic investigation of residual lithium, surface reconstruction (layered → spinel/rock-salt), and interfacial side reactions under practical operating conditions.</li>
+                <li>Kinetic and thermodynamic analysis of structural evolution, cation mixing, oxygen activity, and phase transitions in high-Ni and Co-free cathodes.</li>
+                <li>Surface/interface engineering strategies, including controlled surface modification and reconstruction design, to convert detrimental surface phases into stabilizing interphases.</li>
+                <li>Process–structure–performance correlations linking electrode fabrication, microstructure, and electrochemical stability for long-cycle, high-voltage operation.</li>
+            </ul>
+        `,
+        color: "bg-gray-50",
+        image: "/images/research-1.png"
+    },
+    {
+        id: 2,
+        title: "High-Energy-Density Electrode Materials for Na-Ion Batteries",
+        description: "Designing high-capacity sodium-ion electrode materials and interfacial chemistries to achieve durable and scalable next-generation energy storage.",
+        content: `
+            <p class="mb-4">We develop advanced electrode materials and interfacial chemistries to enable high-energy and durable sodium-ion batteries.</p>
+            <ul class="list-disc list-inside mb-4 space-y-2">
+                <li>Design of alloy-, conversion-, and carbon-based high-capacity anodes (e.g., Sn-, P-, and selenide-based systems) with controlled matrix architectures.</li>
+                <li>Engineering of homogeneous active-material distribution and reaction pathways to improve reversibility and structural stability.</li>
+                <li>Mechanistic understanding of sodiation/desodiation processes using in situ/operando characterization.</li>
+                <li>Electrolyte innovation, including localized high-concentration electrolytes (LHCEs), to enhance interfacial stability and suppress parasitic reactions.</li>
+            </ul>
+        `,
+        color: "bg-white",
+        image: "/images/research-2.png"
+    },
+    {
+        id: 3,
+        title: "2D Protection Layers for Li Metal Anodes",
+        description: "Engineering two-dimensional protective interphases to stabilize lithium metal anodes and suppress dendrite growth for high-energy batteries.",
+        content: `
+            <p class="mb-4">We explore two-dimensional (2D) material-based interfacial engineering to stabilize lithium metal anodes.</p>
+            <ul class="list-disc list-inside mb-4 space-y-2">
+                <li>Development of 2D-derived protective layers (e.g., phosphorene-based systems) to regulate Li-ion flux and suppress dendrite growth.</li>
+                <li>Construction of chemically and mechanically robust interphases that mitigate electrolyte decomposition.</li>
+                <li>Integration of artificial interphases that function not merely as passive barriers, but as electrochemically active and ion-conductive protection layers.</li>
+            </ul>
+        `,
+        color: "bg-gray-50",
+        image: "/images/research-3.png"
+    }
+];
+
