@@ -976,6 +976,7 @@ export const galleryData = [
         description: "",
         thumbnail: "/images/gallery-workshop-2026-1.jpg",
         images: [
+            "/images/gallery-workshop-2026-1.jpg",
             "/images/gallery-workshop-2026-2.jpg",
             "/images/gallery-workshop-2026-3.jpg",
             "/images/gallery-workshop-2026-4.jpg"
