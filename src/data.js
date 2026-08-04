@@ -936,6 +936,16 @@ export const galleryData = [
             "/images/gallery-graduation-2026-3.jpg",
             "/images/gallery-graduation-2026-4.jpg"
         ]
+    },
+    {
+        id: 34,
+        title: "2026 Inter Battery (03/13)",
+        date: "2026.03",
+        description: "",
+        thumbnail: "/images/gallery-interbattery-2026-1.jpg",
+        images: [
+            "/images/gallery-interbattery-2026-1.jpg"
+        ]
     }
 ];
 
