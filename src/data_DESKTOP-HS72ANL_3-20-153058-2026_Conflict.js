@@ -157,6 +157,14 @@ export const membersData = {
 
 export const publications = [
     {
+        id: 52,
+        title: "Effects of Surface Contaminants Inherited from Lithium Sources on the Electrochemical Performance of High-Nickel Positive Electrodes",
+        authors: "Hyeon-kyeong Park, Inhye Kim, Myung-Jun Kwak, Chae Rim Lee, Miseung Kim, Juwhi Park, Ki Jae Kim*, Youngjin Kim*, Hyun-seung Kim*",
+        journal: "",
+        year: 2026,
+        doi: ""
+    },
+    {
         id: 51,
         title: "In Situ Synchrotron Characterization of Layered Oxide Cathodes for Lithium-Ion Batteries: Bridging Synthesis, Operation, and Thermal Stability",
         authors: "Sangbeom Kim, Joon Ha Chang, Beom Tak Na, Sanghyeok Moon, Seonho Kim, Seungjun Baek, Jeong-Mi Yeon, Yu-Jin Kim, Hyun-seung Kim, Min Wook Pin, Youngjin Kim*",

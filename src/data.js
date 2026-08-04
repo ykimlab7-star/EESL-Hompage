@@ -160,6 +160,22 @@ export const membersData = {
 
 export const publications = [
     {
+        id: 52,
+        title: "Effects of Surface Contaminants Inherited from Lithium Sources on the Electrochemical Performance of High-Nickel Positive Electrodes",
+        authors: "Hyeon-kyeong Park, Inhye Kim, Myung-Jun Kwak, Chae Rim Lee, Miseung Kim, Juwhi Park, Ki Jae Kim*, Youngjin Kim*, Hyun-seung Kim*",
+        journal: "ACS Nano",
+        year: 2026,
+        doi: "10.1021/acsnano.6c01575"
+    },
+    {
+        id: 51,
+        title: "In Situ Synchrotron Characterization of Layered Oxide Cathodes for Lithium-Ion Batteries: Bridging Synthesis, Operation, and Thermal Stability",
+        authors: "Sangbeom Kim, Joon Ha Chang, Beom Tak Na, Sanghyeok Moon, Seonho Kim, Seungjun Baek, Jeong-Mi Yeon, Yu-Jin Kim, Hyun-seung Kim, Min Wook Pin, Youngjin Kim*",
+        journal: "Chem. Mater.",
+        year: 2026,
+        doi: "10.1021/acs.chemmater.5c02925"
+    },
+    {
         id: 50,
         title: "Concentration-optimized boron surface modification for single-crystal high-nickel cathode stabilization",
         authors: "Inhye Kim, Min Wook Pin, Ji Yeong Sung, Boseong Heo, Saerop Lee, Jeong-Mi Yeon, Beom Tak Na, Jong Sung Jin, Yongjo Jung, Joon Ha Chang, Youngjin Kim*",
@@ -961,6 +977,38 @@ export const galleryData = [
     },
     {
         id: 36,
+        title: "🎉교수님 생신🎉",
+        date: "2026.04",
+        description: "",
+        thumbnailContain: true,
+        thumbnail: "/images/gallery-birthday-prof-2026-1.jpg",
+        images: [
+            "/images/gallery-birthday-prof-2026-1.jpg"
+        ]
+    },
+    {
+        id: 37,
+        title: "KNU Battery Day (05/28 ~ 05/29)",
+        date: "2026.05",
+        description: "'석사과정 서하진'",
+        thumbnail: "/images/gallery-knu-battery-day-2026-2.jpg",
+        images: [
+            "/images/gallery-knu-battery-day-2026-2.jpg",
+            "/images/gallery-knu-battery-day-2026-1.jpg"
+        ]
+    },
+    {
+        id: 38,
+        title: "야근하면서 야식",
+        date: "2026.06",
+        description: "",
+        thumbnail: "/images/gallery-late-night-snack-2026-1.jpg",
+        images: [
+            "/images/gallery-late-night-snack-2026-1.jpg"
+        ]
+    },
+    {
+        id: 39,
         title: "2026 교수님 Home Party",
         date: "2026.07",
         description: "",
@@ -970,7 +1018,7 @@ export const galleryData = [
         ]
     },
     {
-        id: 37,
+        id: 40,
         title: "2026 EESL 워크숍",
         date: "2026.07",
         description: "",
