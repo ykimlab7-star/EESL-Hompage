@@ -566,15 +566,377 @@ export const publications = [
 export const galleryData = [
     {
         id: 1,
-        title: "Lab Group Photo",
-        image: "/images/gallery1.jpg"
+        title: "EESL 첫 단체 사진",
+        date: "2023.03",
+        description: "EESL 연구실의 첫 번째 단체 사진입니다.",
+        thumbnail: "/images/gallery-first-group-lab.jpg",
+        images: [
+            "/images/gallery-first-group-lab.jpg",
+            "/images/gallery-first-group.jpg"
+        ]
     },
     {
         id: 2,
-        title: "Research Activity",
-        image: "/images/gallery2.jpg"
+        title: "EESL 회식",
+        date: "2023.03",
+        description: "",
+        thumbnail: "/images/gallery-hoesik-1.jpg",
+        images: [
+            "/images/gallery-hoesik-1.jpg",
+            "/images/gallery-hoesik-2.jpg",
+            "/images/gallery-hoesik-3.jpg"
+        ]
+    },
+    {
+        id: 3,
+        title: "EESL 산낙지 섭외 완료",
+        date: "2023.05",
+        description: "",
+        thumbnail: "/images/gallery-nakji-1.jpg",
+        images: [
+            "/images/gallery-nakji-1.jpg"
+        ]
+    },
+    {
+        id: 4,
+        title: "교수님과 함께하는 세미나",
+        date: "2023.05",
+        description: "",
+        thumbnail: "/images/gallery-seminar-1.jpg",
+        images: [
+            "/images/gallery-seminar-1.jpg"
+        ]
+    },
+    {
+        id: 5,
+        title: "2023 스승의 날",
+        date: "2023.05",
+        description: "",
+        thumbnail: "/images/gallery-teachers-day-1.jpg",
+        images: [
+            "/images/gallery-teachers-day-1.jpg"
+        ]
+    },
+    {
+        id: 6,
+        title: "EESL 단체 야구 경기 관람",
+        date: "2023.07",
+        description: "",
+        thumbnail: "/images/gallery-baseball-1.jpg",
+        images: [
+            "/images/gallery-baseball-1.jpg",
+            "/images/gallery-baseball-2.jpg"
+        ]
+    },
+    {
+        id: 7,
+        title: "독일 잘 다녀와",
+        date: "2023.07",
+        description: "",
+        thumbnail: "/images/gallery-germany-1.jpg",
+        images: [
+            "/images/gallery-germany-1.jpg"
+        ]
+    },
+    {
+        id: 8,
+        title: "기업 연계 연구 프로젝트 참여 - 독일",
+        date: "2023.07",
+        description: "",
+        thumbnail: "/images/gallery-germany-project-1.png",
+        images: [
+            "/images/gallery-germany-project-1.png"
+        ]
+    },
+    {
+        id: 9,
+        title: "2023 하계 MT - 포항",
+        date: "2023.08",
+        description: "",
+        thumbnail: "/images/gallery-2023-mt-1.jpg",
+        images: [
+            "/images/gallery-2023-mt-1.jpg",
+            "/images/gallery-2023-mt-2.jpg",
+            "/images/gallery-2023-mt-3.jpg",
+            "/images/gallery-2023-mt-4.jpg",
+            "/images/gallery-2023-mt-5.jpg",
+            "/images/gallery-2023-mt-6.jpg",
+            "/images/gallery-2023-mt-7.jpg",
+            "/images/gallery-2023-mt-8.jpg"
+        ]
+    },
+    {
+        id: 10,
+        title: "두근두근 coin cell 실험",
+        date: "2023.08",
+        description: "",
+        thumbnail: "/images/gallery-coincell-1.png",
+        images: [
+            "/images/gallery-coincell-1.png",
+            "/images/gallery-coincell-2.png",
+            "/images/gallery-coincell-3.png"
+        ]
+    },
+    {
+        id: 11,
+        title: "2023 백향제 축구 준우승 '문상혁'",
+        date: "2023.10",
+        description: "",
+        thumbnail: "/images/gallery-soccer-1.png",
+        images: [
+            "/images/gallery-soccer-1.png"
+        ]
+    },
+    {
+        id: 12,
+        title: "2023국가우수(이공계) 장학생 '김선호'",
+        date: "2023.11",
+        description: "",
+        thumbnail: "/images/gallery-scholarship-1.jpg",
+        images: [
+            "/images/gallery-scholarship-1.jpg"
+        ]
+    },
+    {
+        id: 13,
+        title: "2023 누들브리지 경연대회 금상 '김상범'",
+        date: "2023.11",
+        description: "",
+        thumbnail: "/images/gallery-noodle-1.jpg",
+        images: [
+            "/images/gallery-noodle-1.jpg"
+        ]
+    },
+    {
+        id: 14,
+        title: "화목한 EESL",
+        date: "2023.12",
+        description: "",
+        thumbnail: "/images/gallery-eesl-2023-1.jpg",
+        images: [
+            "/images/gallery-eesl-2023-1.jpg"
+        ]
+    },
+    {
+        id: 15,
+        title: "2023 EESL 송년회☺️",
+        date: "2023.12",
+        description: "",
+        thumbnail: "/images/gallery-yearend-2023-1.jpg",
+        images: [
+            "/images/gallery-yearend-2023-1.jpg"
+        ]
+    },
+    {
+        id: 16,
+        title: "The Future of Secondary Battery Technology",
+        date: "2024.01",
+        description: "Arumugam Manthiram & Ykim",
+        thumbnail: "/images/gallery-battery-symposium-1.jpg",
+        images: [
+            "/images/gallery-battery-symposium-1.jpg"
+        ]
+    },
+    {
+        id: 17,
+        title: "2024 New EESL Assemble",
+        date: "2024.01",
+        description: "",
+        thumbnail: "/images/gallery-eesl-assemble-1.jpg",
+        images: [
+            "/images/gallery-eesl-assemble-1.jpg"
+        ]
+    },
+    {
+        id: 18,
+        title: "2024 동계 MT - 양양 (2/5 ~ 2/7)",
+        date: "2024.02",
+        description: "",
+        thumbnail: "/images/gallery-2024-mt-1.jpg",
+        images: [
+            "/images/gallery-2024-mt-1.jpg",
+            "/images/gallery-2024-mt-2.jpg",
+            "/images/gallery-2024-mt-3.jpg",
+            "/images/gallery-2024-mt-4.jpg",
+            "/images/gallery-2024-mt-5.jpg"
+        ]
+    },
+    {
+        id: 19,
+        title: "학부 졸업 '최시은'",
+        date: "2024.02",
+        description: "",
+        thumbnail: "/images/gallery-graduation-sieun-1.jpg",
+        images: [
+            "/images/gallery-graduation-sieun-1.jpg",
+            "/images/gallery-graduation-sieun-2.jpg",
+            "/images/gallery-graduation-sieun-3.jpg"
+        ]
+    },
+    {
+        id: 20,
+        title: "행복한 EESL",
+        date: "2024.04",
+        description: "",
+        thumbnail: "/images/gallery-happy-eesl-1.jpg",
+        images: [
+            "/images/gallery-happy-eesl-1.jpg"
+        ]
+    },
+    {
+        id: 21,
+        title: "2024 춘계 전기화학회",
+        date: "2024.04",
+        description: "",
+        thumbnail: "/images/gallery-electrochemistry-2024-1.jpg",
+        images: [
+            "/images/gallery-electrochemistry-2024-1.jpg",
+            "/images/gallery-electrochemistry-2024-2.jpg"
+        ]
+    },
+    {
+        id: 22,
+        title: "교수님 생신축하드려요 🥳😍🎉",
+        date: "2024.04",
+        description: "",
+        thumbnailContain: true,
+        thumbnail: "/images/gallery-birthday-prof-1.jpg",
+        images: [
+            "/images/gallery-birthday-prof-1.jpg"
+        ]
+    },
+    {
+        id: 23,
+        title: "2024 하계 MT - 강릉 (08/12~08/14) 🏊",
+        date: "2024.08",
+        description: "",
+        thumbnail: "/images/gallery-2024-summer-mt-1.png",
+        images: [
+            "/images/gallery-2024-summer-mt-1.png",
+            "/images/gallery-2024-summer-mt-2.png",
+            "/images/gallery-2024-summer-mt-3.png",
+            "/images/gallery-2024-summer-mt-4.png",
+            "/images/gallery-2024-summer-mt-5.png"
+        ]
+    },
+    {
+        id: 24,
+        title: "2024 K-BATTERY SHOW (09/26)",
+        date: "2024.09",
+        description: "",
+        thumbnail: "/images/gallery-kbattery-2024-1.png",
+        images: [
+            "/images/gallery-kbattery-2024-1.png",
+            "/images/gallery-kbattery-2024-2.png",
+            "/images/gallery-kbattery-2024-3.png"
+        ]
+    },
+    {
+        id: 25,
+        title: "2024 연말 PARTY (11/22)",
+        date: "2024.11",
+        description: "",
+        thumbnail: "/images/gallery-yearend-party-2024-1.png",
+        images: [
+            "/images/gallery-yearend-party-2024-1.png",
+            "/images/gallery-yearend-party-2024-2.png",
+            "/images/gallery-yearend-party-2024-3.png",
+            "/images/gallery-yearend-party-2024-4.png"
+        ]
+    },
+    {
+        id: 26,
+        title: "축 졸업🎉 '김인혜, 조준희'",
+        date: "2025.02",
+        description: "",
+        thumbnail: "/images/gallery-graduation-2025-1.png",
+        images: [
+            "/images/gallery-graduation-2025-1.png",
+            "/images/gallery-graduation-2025-2.png"
+        ]
+    },
+    {
+        id: 27,
+        title: "2025 미래 세대의 리더, 용기의 사나이 '서하진'",
+        date: "2025.02",
+        description: "현대자동차 정몽구 재단 장학생",
+        thumbnail: "/images/gallery-hyundai-scholarship-1.png",
+        images: [
+            "/images/gallery-hyundai-scholarship-1.png"
+        ]
+    },
+    {
+        id: 28,
+        title: "EESL 1기 학부 졸업식",
+        date: "2025.02",
+        description: "",
+        thumbnail: "/images/gallery-eesl-graduation-1st-1.png",
+        images: [
+            "/images/gallery-eesl-graduation-1st-1.png",
+            "/images/gallery-eesl-graduation-1st-2.png"
+        ]
+    },
+    {
+        id: 29,
+        title: "2025 Inter Battery (03/07)",
+        date: "2025.03",
+        description: "",
+        thumbnail: "/images/gallery-interbattery-2025-1.png",
+        images: [
+            "/images/gallery-interbattery-2025-1.png",
+            "/images/gallery-interbattery-2025-2.png",
+            "/images/gallery-interbattery-2025-3.png"
+        ]
+    },
+    {
+        id: 30,
+        title: "🎉교수님 생신🎉(04/23)",
+        date: "2025.04",
+        description: "",
+        thumbnail: "/images/gallery-birthday-prof-2025-1.png",
+        images: [
+            "/images/gallery-birthday-prof-2025-1.png"
+        ]
+    },
+    {
+        id: 31,
+        title: "2025 하계 워크숍 - 양양 (08/11 ~ 08/12)",
+        date: "2025.08",
+        description: "",
+        thumbnail: "/images/gallery-2025-summer-workshop-1.png",
+        images: [
+            "/images/gallery-2025-summer-workshop-1.png",
+            "/images/gallery-2025-summer-workshop-2.png",
+            "/images/gallery-2025-summer-workshop-3.png"
+        ]
+    },
+    {
+        id: 32,
+        title: "2025 한국전기화학회 (11/19 ~ 11/21)",
+        date: "2025.11",
+        description: "",
+        thumbnail: "/images/gallery-kes-2025-1.png",
+        images: [
+            "/images/gallery-kes-2025-1.png",
+            "/images/gallery-kes-2025-2.png",
+            "/images/gallery-kes-2025-3.png",
+            "/images/gallery-kes-2025-4.png"
+        ]
+    },
+    {
+        id: 33,
+        title: "EESL 축 졸업🎉",
+        date: "2026.02",
+        description: "'석사 최시은, 허보성'",
+        description2: "'학부 이상현, 최정빈, 서하진, 백승준'",
+        thumbnail: "/images/gallery-graduation-2026-1.jpg",
+        images: [
+            "/images/gallery-graduation-2026-1.jpg",
+            "/images/gallery-graduation-2026-2.jpg",
+            "/images/gallery-graduation-2026-3.jpg",
+            "/images/gallery-graduation-2026-4.jpg"
+        ]
     }
-    // Add more gallery items
 ];
 
 export const newsData = [
