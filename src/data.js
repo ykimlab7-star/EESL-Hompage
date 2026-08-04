@@ -946,6 +946,18 @@ export const galleryData = [
         images: [
             "/images/gallery-interbattery-2026-1.jpg"
         ]
+    },
+    {
+        id: 35,
+        title: "2026 미래 세대의 리더, 용기의 사나이 '서하진'",
+        date: "2026.02",
+        description: "현대자동차 정몽구 재단 장학생",
+        thumbnail: "/images/gallery-hyundai-scholarship-2026-1.jpg",
+        images: [
+            "/images/gallery-hyundai-scholarship-2026-1.jpg",
+            "/images/gallery-hyundai-scholarship-2026-2.jpg",
+            "/images/gallery-hyundai-scholarship-2026-3.jpg"
+        ]
     }
 ];
 
