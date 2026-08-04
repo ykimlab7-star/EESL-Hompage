@@ -958,6 +958,28 @@ export const galleryData = [
             "/images/gallery-hyundai-scholarship-2026-2.jpg",
             "/images/gallery-hyundai-scholarship-2026-3.jpg"
         ]
+    },
+    {
+        id: 36,
+        title: "2026 교수님 Home Party",
+        date: "2026.07",
+        description: "",
+        thumbnail: "/images/gallery-homeparty-2026-1.jpg",
+        images: [
+            "/images/gallery-homeparty-2026-1.jpg"
+        ]
+    },
+    {
+        id: 37,
+        title: "2026 EESL 워크숍",
+        date: "2026.07",
+        description: "",
+        thumbnail: "/images/gallery-workshop-2026-1.jpg",
+        images: [
+            "/images/gallery-workshop-2026-2.jpg",
+            "/images/gallery-workshop-2026-3.jpg",
+            "/images/gallery-workshop-2026-4.jpg"
+        ]
     }
 ];
 
