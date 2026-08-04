@@ -9,6 +9,7 @@ import Research from './pages/Research';
 import Members from './pages/Members';
 import Publications from './pages/Publications';
 import Gallery from './pages/Gallery';
+import GalleryDetail from './pages/GalleryDetail';
 import News from './pages/News';
 import NewsDetail from './pages/NewsDetail';
 import Contact from './pages/Contact';
@@ -29,6 +30,7 @@ function App() {
                             <Route path="/members" element={<Members />} />
                             <Route path="/publications" element={<Publications />} />
                             <Route path="/gallery" element={<Gallery />} />
+                            <Route path="/gallery/:id" element={<GalleryDetail />} />
                             <Route path="/news" element={<News />} />
                             <Route path="/news/:id" element={<NewsDetail />} />
                             <Route path="/contact" element={<Contact />} />
