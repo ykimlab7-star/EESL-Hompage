@@ -22,75 +22,51 @@ export const membersData = {
     graduateStudents: [
         {
             id: "g1",
-            name: "Sieun Choi",
-            degree: "Master student",
-            research: "LFP,LMFP cathode material",
-            email: "tldmsct7@naver.com",
-            image: "/images/Sieun Choi.png"
-        },
-        {
-            id: "g2",
-            name: "Boseong Heo",
-            degree: "Combined BS/MS student",
-            research: "layered structure cathode material",
-            email: "gahbskib@naver.com",
-            image: "/images/Boseong Heo.png"
-        },
-        {
-            id: "g3",
             name: "Sangbeom Kim",
             degree: "Combined BS/MS student",
-            research: "layered structure cathode material",
-            email: "sangbum1127@naver.com",
             image: "/images/Sangbeom Kim.png"
         },
         {
-            id: "g4",
+            id: "g2",
             name: "Seonho Kim",
             degree: "Combined BS/MS student",
-            research: "layered structure cathode material",
-            email: "tjsgh0928@naver.com",
             image: "/images/Seonho Kim.png"
         },
         {
-            id: "g5",
+            id: "g3",
             name: "Sanghyeok Moon",
             degree: "Master student",
-            research: "layered structure cathode material",
-            email: "q7634407@naver.com",
             image: "/images/Sanghyeok Moon.png"
         },
         {
-            id: "g6",
+            id: "g4",
             name: "Seungjun Baek",
             degree: "Combined BS/MS student",
-            research: "layered structure cathode material",
-            email: "nanim0115@naver.com",
             image: "/images/Seungjun Baek.png"
         },
         {
-            id: "g7",
+            id: "g5",
             name: "Hajin Seo",
             degree: "Master student",
-            research: "layered structure cathode material",
-            email: "seohajin@naver.com",
             image: "/images/Hajin Seo.png"
         },
         {
-            id: "g8",
+            id: "g6",
             name: "Jungbeen Choi",
             degree: "Master student",
-            research: "layered structure cathode material",
-            email: "chlwjdqls13@naver.com",
             image: "/images/Jungbeen Choi.png"
         },
         {
-            id: "g9",
+            id: "g7",
             name: "Sanghyun Lee",
             degree: "Master student",
-            research: "layered structure cathode material",
-            email: "lapis0621@daum.net",
             image: "/images/Sanghyun Lee.png"
+        },
+        {
+            id: "g8",
+            name: "Sunggyun Park",
+            degree: "Combined BS/MS student",
+            image: "/images/Sunggyun Park.jpg"
         },
     ],
     undergraduateStudents: [
@@ -98,42 +74,31 @@ export const membersData = {
             id: "u1",
             name: "Seunghun Park",
             degree: "B.S. Course",
-            email: "shth1502@naver.com",
             image: "/images/Seunghun Park.png"
         },
+
         {
             id: "u2",
-            name: "Sunggyun Park",
-            degree: "B.S. Course",
-            email: "pyk606@kangwon.ac.kr",
-            image: "/images/Sunggyun Park.jpg"
-        },
-        {
-            id: "u3",
             name: "Yejin Eom",
             degree: "B.S. Course",
-            email: "yejineom@kangwon.ac.kr",
             image: "/images/Yejin Eom.jpg"
         },
         {
-            id: "u4",
+            id: "u3",
             name: "Hyeonji Park",
             degree: "B.S. Course",
-            email: "wjddkdnf@naver.com",
             image: "/images/Hyeonji Park.jpg"
         },
         {
-            id: "u5",
+            id: "u4",
             name: "Taeyeon Kim",
             degree: "B.S. Course",
-            email: "rachel4369@naver.com",
             image: "/images/Taeyeon Kim.jpg"
         },
         {
-            id: "u6",
+            id: "u5",
             name: "Minsang Kim",
             degree: "B.S. Course",
-            email: "tpok1158@naver.com",
             image: "/images/Minsang Kim.jpg"
         },
     ],
@@ -154,27 +119,25 @@ export const membersData = {
             Current: "Current : 더쎈 국제 특허법률사무소",
             image: "/images/Junhee Cho.png"
         },
+        {
+            id: "al 3",
+            name: "Sieun Choi",
+            degree: "Master's degree",
+            "graduate date": "2026.02",
+            image: "/images/Sieun Choi.png"
+        },
+        {
+            id: "ai 4",
+            name: "Boseong Heo",
+            degree: "Master's degree",
+            "graduate date": "2026.02",
+            image: "/images/Boseong Heo.png"
+        },
         // Alumni data
     ]
 };
 
 export const publications = [
-    {
-        id: 52,
-        title: "Effects of Surface Contaminants Inherited from Lithium Sources on the Electrochemical Performance of High-Nickel Positive Electrodes",
-        authors: "Hyeon-kyeong Park, Inhye Kim, Myung-Jun Kwak, Chae Rim Lee, Miseung Kim, Juwhi Park, Ki Jae Kim*, Youngjin Kim*, Hyun-seung Kim*",
-        journal: "ACS Nano",
-        year: 2026,
-        doi: "10.1021/acsnano.6c01575"
-    },
-    {
-        id: 51,
-        title: "In Situ Synchrotron Characterization of Layered Oxide Cathodes for Lithium-Ion Batteries: Bridging Synthesis, Operation, and Thermal Stability",
-        authors: "Sangbeom Kim, Joon Ha Chang, Beom Tak Na, Sanghyeok Moon, Seonho Kim, Seungjun Baek, Jeong-Mi Yeon, Yu-Jin Kim, Hyun-seung Kim, Min Wook Pin, Youngjin Kim*",
-        journal: "Chem. Mater.",
-        year: 2026,
-        doi: "10.1021/acs.chemmater.5c02925"
-    },
     {
         id: 50,
         title: "Concentration-optimized boron surface modification for single-crystal high-nickel cathode stabilization",
@@ -977,38 +940,6 @@ export const galleryData = [
     },
     {
         id: 36,
-        title: "🎉교수님 생신🎉",
-        date: "2026.04",
-        description: "",
-        thumbnailContain: true,
-        thumbnail: "/images/gallery-birthday-prof-2026-1.jpg",
-        images: [
-            "/images/gallery-birthday-prof-2026-1.jpg"
-        ]
-    },
-    {
-        id: 37,
-        title: "KNU Battery Day (05/28 ~ 05/29)",
-        date: "2026.05",
-        description: "'석사과정 서하진'",
-        thumbnail: "/images/gallery-knu-battery-day-2026-2.jpg",
-        images: [
-            "/images/gallery-knu-battery-day-2026-2.jpg",
-            "/images/gallery-knu-battery-day-2026-1.jpg"
-        ]
-    },
-    {
-        id: 38,
-        title: "야근하면서 야식",
-        date: "2026.06",
-        description: "",
-        thumbnail: "/images/gallery-late-night-snack-2026-1.jpg",
-        images: [
-            "/images/gallery-late-night-snack-2026-1.jpg"
-        ]
-    },
-    {
-        id: 39,
         title: "2026 교수님 Home Party",
         date: "2026.07",
         description: "",
@@ -1018,7 +949,7 @@ export const galleryData = [
         ]
     },
     {
-        id: 40,
+        id: 37,
         title: "2026 EESL 워크숍",
         date: "2026.07",
         description: "",

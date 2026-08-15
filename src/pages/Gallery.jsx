@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 import { galleryData } from '../data';
 
 const Gallery = () => {
-    // 연도별로 그룹화 (최신순)
+    // Group by year (newest first)
     const sorted = [...galleryData].reverse();
     const grouped = sorted.reduce((acc, item) => {
-        const year = item.date ? item.date.split('.')[0] : '기타';
+        const year = item.date ? item.date.split('.')[0] : 'Other';
         if (!acc[year]) acc[year] = [];
         acc[year].push(item);
         return acc;
@@ -27,13 +27,13 @@ const Gallery = () => {
             <div className="max-w-6xl mx-auto px-6 pb-20 space-y-16">
                 {years.map((year) => (
                     <section key={year}>
-                        {/* 연도 헤더 */}
+                        {/* Year Header */}
                         <div className="flex items-center gap-4 mb-8">
                             <h2 className="text-3xl font-black" style={{ color: '#1e3a5f' }}>{year}</h2>
                             <div className="flex-1 h-[2px] bg-gray-200"></div>
                         </div>
 
-                        {/* 해당 연도 그리드 */}
+                        {/* Grid */}
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                             {grouped[year].map((item) => (
                                 <Link
@@ -87,4 +87,3 @@ const Gallery = () => {
 };
 
 export default Gallery;
-

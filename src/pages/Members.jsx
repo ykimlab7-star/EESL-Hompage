@@ -222,7 +222,7 @@ const Members = () => {
                                             <h4 className="text-xl font-bold text-gray-800 mb-1">{alumnus.name}</h4>
                                             <p className="font-medium mb-1" style={{ color: '#1e3a5f' }}>Degree: {alumnus.degree}</p>
                                             <p className="text-gray-600 text-sm mb-1">Graduated: {alumnus['graduate date']}</p>
-                                            <p className="text-gray-800 text-sm">{alumnus.Current}</p>
+                                            {alumnus.Current && <p className="text-gray-800 text-sm">{alumnus.Current}</p>}
                                         </div>
                                     </div>
                                 ))
