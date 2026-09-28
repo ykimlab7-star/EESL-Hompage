@@ -1,7 +1,7 @@
 export const membersData = {
     professor: {
         name: "Youngjin Kim (김영진)",
-        title: "Assistant Professor",
+        title: "Associate Professor",
         department: "Department of Battery Convergence Engineering",
         university: "Kangwon National University",
         email: "ykim@kangwon.ac.kr",
@@ -13,7 +13,8 @@ export const membersData = {
             "B.S. in Chemical Engineering, Seoul National University of Science and Technology (2003 – 2010)"
         ],
         experience: [
-            "Assistant Professor, Kangwon National University (Sep. 2022 – Present)",
+            "Associate Professor, Kangwon National University (Sep. 2026 – Present)",
+            "Assistant Professor, Kangwon National University (Sep. 2022 – Aug. 2026)",
             "Senior Researcher, RIST (Aug. 2021 – Aug. 2022)",
             "Post. Doc., University of Texas at Austin (Jul. 2017 – Jun. 2021)",
             "Post. Doc., Seoul National University (Mar. 2016 – Jun. 2017)"
