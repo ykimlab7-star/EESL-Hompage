@@ -960,6 +960,23 @@ export const galleryData = [
             "/images/gallery-workshop-2026-3.jpg",
             "/images/gallery-workshop-2026-4.jpg"
         ]
+    },
+    {
+        id: 38,
+        title: "77th Annual Meeting of the International Society of Electrochemistry 참가 🦘",
+        date: "2026.09.06~09.11",
+        description: "호주 시드니 🐨",
+        thumbnail: "/images/gallery-AUS-2026-1.png",
+        images: [
+            "/images/gallery-AUS-2026-1.png",
+            "/images/gallery-AUS-2026-2.jpg",
+            "/images/gallery-AUS-2026-3.jpg",
+            "/images/gallery-AUS-2026-4.jpg",
+            "/images/gallery-AUS-2026-5.jpg",
+            "/images/gallery-AUS-2026-6.jpg",
+            "/images/gallery-AUS-2026-7.jpg",
+            "/images/gallery-AUS-2026-8.jpg"
+        ]
     }
 ];
 
