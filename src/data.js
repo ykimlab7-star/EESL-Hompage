@@ -139,6 +139,38 @@ export const membersData = {
 
 export const publications = [
     {
+        id: 54,
+        title: "In Situ Synchrotron Characterization of Layered Oxide Cathodes for Lithium-Ion Batteries: Bridging Synthesis, Operation, and Thermal Stability",
+        authors: "Sangbeom Kim, JH Chang, BT Na, Sanghyeok Moon, Seonho Kim, Seungjun Baek, JM Yeon, Youngjin Kim*",
+        journal: "Chemistry of Materials 38 (4), 1628-1650",
+        year: 2026,
+        doi: "10.1021/acs.chemmater.5c02925"
+    },
+    {
+        id: 53,
+        title: "Effects of Surface Contaminants Inherited from Lithium Sources on the Electrochemical Performance of High-Nickel Positive Electrodes",
+        authors: "H Park, Inhye Kim, MJ Kwak, CR Lee, M Kim, J Park, KJ Kim, Youngjin Kim*, H Kim",
+        journal: "ACS Nano 20 (17), 13162–13171",
+        year: 2026,
+        doi: "10.1021/acsnano.6c01575"
+    },
+    {
+        id: 52,
+        title: "Flame Suppression in Lithium‐Ion Batteries During Thermal Runaway Through Solvent Design Considering the Volatility–Flammability Relationship",
+        authors: "CY Hong, JH Chang, HY Jang, J Byun, CR Lee, J Kim, OB Chae, Youngjin Kim*",
+        journal: "Advanced Science, e77307",
+        year: 2026,
+        doi: "10.1002/advs.77307"
+    },
+    {
+        id: 51,
+        title: "Dissolved Lithium Activity Confines the Layered-to-Rock-Salt Transition while Preserving Residual Lithium Removal in High-Nickel Positive Electrode Washing",
+        authors: "Inhye Kim, J Byun, Jungbeen Choi, JH Chang, Hajin Seo, Seungjun Baek, Sanghyun Lee, M Pin, JY Cheong, Youngjin Kim*",
+        journal: "Nanoscale Horizons",
+        year: 2026,
+        doi: "10.1039/d6nh00315j"
+    },
+    {
         id: 50,
         title: "Concentration-optimized boron surface modification for single-crystal high-nickel cathode stabilization",
         authors: "Inhye Kim, Min Wook Pin, Ji Yeong Sung, Boseong Heo, Saerop Lee, Jeong-Mi Yeon, Beom Tak Na, Jong Sung Jin, Yongjo Jung, Joon Ha Chang, Youngjin Kim*",
