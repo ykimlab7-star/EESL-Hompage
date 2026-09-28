@@ -982,6 +982,34 @@ export const galleryData = [
 
 export const newsData = [
     {
+        id: 7,
+        date: "2026-09-18",
+        title: `Professor Youngjin Kim Selected as <span class="font-bold text-blue-900">"Outstanding Researcher of the Month"</span> (September 2026)`,
+        content: `<span class="font-semibold text-gray-900">Professor Youngjin Kim</span> of the Department of Battery Convergence Engineering at Kangwon National University's Chuncheon Campus has been selected as the <span class="font-bold text-blue-900">"Outstanding Researcher of the Month (September 2026)"</span> by the University–Industry Cooperation Foundation.
+
+The "Outstanding Researcher of the Month" is a program established by the University–Industry Cooperation Foundation to recognize researchers with exceptional records in securing research funding and fostering industry–academia collaboration each month, with the aim of expanding research funding and promoting cooperative partnerships.
+
+From February to August 2026, Professor Kim led a total of seven research projects — including the National Research Foundation's Early-Career Research Program — securing approximately <span class="font-semibold text-gray-900">385.67 million KRW</span> in research funding, along with one technology transfer achievement in industry–academia collaboration.
+
+Key research projects include: ▲ Development of an AI-based atomic-scale structure and chemistry integrated analysis platform for secondary battery cathode materials ▲ Elucidation of degradation mechanisms in single-crystal mid-Ni cathode materials ▲ Development and validation of lithium-ion battery cells for military mobile ESS ▲ Development of lithium-ion battery cell technology for polymer-based all-solid-state cathodes.
+
+The University–Industry Cooperation Foundation plans to continue identifying and recognizing researchers who produce outstanding research outcomes and industry–academia collaboration achievements, and to support research revitalization and the expansion of cooperative efforts.`,
+        image: "/images/news 7.png"
+    },
+    {
+        id: 6,
+        date: "2026-08-31",
+        title: `Four Students Awarded <span class="font-bold text-blue-900">"Grand Excellence Prize"</span> at 「2026 Regional Industry-Academia Project & WE-MEET Matching Day」`,
+        content: `<span class="font-semibold text-gray-900">Minsang Kim</span>, <span class="font-semibold text-gray-900">Taeyeon Kim</span>, and <span class="font-semibold text-gray-900">Hyeonji Park</span> from the Department of Battery Convergence Engineering, along with <span class="font-semibold text-gray-900">Seunghun Park</span> from the Department of Chemical Engineering, have been awarded the <span class="font-bold text-blue-900">Grand Excellence Prize (최우수상)</span> at the 「2026 Regional Industry-Academia Project & WE-MEET Matching Day」.
+
+Under the guidance of <span class="font-semibold text-gray-900">Professor Youngjin Kim</span>, the team conducted research on <span class="italic font-medium">"Development of Cellulose-Based Binders and Evaluation of Electrochemical Performance"</span> as part of the WE-MEET Project's Undergraduate Research Intern A program, operated by the KNU Advanced Materials & Nano-Convergence Innovative University Initiative.
+
+Certain fluorine-based materials have raised environmental concerns due to their persistence in nature and resistance to degradation. Seeking a more sustainable alternative, the students developed a cellulose-based non-fluorine binder for lithium-ion battery cathodes and evaluated the electrochemical performance of electrodes fabricated with this binder. The research excellence and practical competency demonstrated throughout the project earned them the Grand Excellence Prize.
+
+The event was hosted by the Chung-Ang University Advanced Materials & Nano-Convergence Innovative University Initiative to share collaborative achievements among communities, industries, and universities, and to propose new projects. Among the awardees, two teams received the Grand Prize, four teams received the Grand Excellence Prize — including one team from Kangwon National University — and six teams received the Excellence Prize.`,
+        image: "/images/news 6.png"
+    },
+    {
         id: 5,
         date: "2026-02-20",
         title: `<span class="font-bold text-blue-900">University President’s Award</span> for Outstanding Academic Research`,
