@@ -140,6 +140,14 @@ export const membersData = {
 
 export const publications = [
     {
+        id: 55,
+        title: "Synergistic Electrostatic and Mechanical Anchoring at Cathode–Current Collector Junctions for Durable Sodium-Ion Batteries",
+        authors: "Sieun Choi, Myung-Jun Kwak, Min Wook Pin, Joon Ha Chang, Beom Tak Na, Seunghun Park, Wontak Kim, Hyogyeong Jeon, Ji-Sang Yu, Jun Ho Song, Seunghae Hwang, Sunghun Choi, Hyun-seung Kim, Youngjin Kim*",
+        journal: "Small, e75852",
+        year: 2026,
+        doi: "10.1002/smll.75852"
+    },
+    {
         id: 54,
         title: "In Situ Synchrotron Characterization of Layered Oxide Cathodes for Lithium-Ion Batteries: Bridging Synthesis, Operation, and Thermal Stability",
         authors: "Sangbeom Kim, JH Chang, BT Na, Sanghyeok Moon, Seonho Kim, Seungjun Baek, JM Yeon, Youngjin Kim*",
