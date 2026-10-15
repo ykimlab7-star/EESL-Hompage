@@ -117,7 +117,6 @@ export const membersData = {
             name: "Junhee Cho",
             degree: "Bachelor's degree",
             "graduate date": "2025.02",
-            Current: "Current : 더쎈 국제 특허법률사무소",
             image: "/images/Junhee Cho.png"
         },
         {
@@ -128,10 +127,11 @@ export const membersData = {
             image: "/images/Sieun Choi.png"
         },
         {
-            id: "ai 4",
+            id: "al 4",
             name: "Boseong Heo",
             degree: "Master's degree",
             "graduate date": "2026.02",
+            Current: "Current : KETI (한국전자기술연구원)",
             image: "/images/Boseong Heo.png"
         },
         // Alumni data
