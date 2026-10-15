@@ -140,6 +140,14 @@ export const membersData = {
 
 export const publications = [
     {
+        id: 56,
+        title: "Oxygen Partial Pressure as a Kinetic Descriptor for Single-Crystal Morphology in Mid-Nickel Layered Cathodes",
+        authors: "Hyeonho Park, Sushil Kumar, Sangbeom Kim, Ho Choi, Youngmin Jeon, Taeju Bak, Jisook Hong, M. P. Gururajan, Youngjin Kim*, Kyoungdoc Kim*",
+        journal: "Advanced Science, e78080",
+        year: 2026,
+        doi: "10.1002/advs.78080"
+    },
+    {
         id: 55,
         title: "Synergistic Electrostatic and Mechanical Anchoring at Cathode–Current Collector Junctions for Durable Sodium-Ion Batteries",
         authors: "Sieun Choi, Myung-Jun Kwak, Min Wook Pin, Joon Ha Chang, Beom Tak Na, Seunghun Park, Wontak Kim, Hyogyeong Jeon, Ji-Sang Yu, Jun Ho Song, Seunghae Hwang, Sunghun Choi, Hyun-seung Kim, Youngjin Kim*",
